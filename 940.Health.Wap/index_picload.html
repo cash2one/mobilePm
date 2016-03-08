@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{margin: 0;padding:0;}
+        ul li{
+            float: left;
+            text-decoration: none;
+            list-style: none;
+        }
+        .ul li img{width:800px;}
+    </style>
+    <script  src="ydxLazyLoad.js"></script>
+</head>
+<body>
+<div class="main">
+    <div class="title">图片预加载</div>
+    <div class="content">
+        <div class="img">
+            <a href="">
+                <img lazyloadsrc="http://www.publicdomainpictures.net/pictures/30000/nahled/cactus-sunrise-1346445804eMe.jpg" alt="" width="200" height="120" src="http://www.publicdomainpictures.net/pictures/30000/nahled/cactus-sunrise-1346445804eMe.jpg" style="display: inline;">
+            </a>
+            <span class="loading" style="display: none;"></span>
+        </div>
+        <div class="img">
+            <a href="">
+                <img lazyloadsrc="http://www.publicdomainpictures.net/pictures/20000/nahled/red-and-yellow-autumn-leaves.jpg" alt="" width="200" height="120" src="http://www.publicdomainpictures.net/pictures/20000/nahled/red-and-yellow-autumn-leaves.jpg" style="display: inline;">
+            </a>
+            <span class="loading" style="display: none;"></span>
+        </div>
+        <div class="img">
+            <a href="">
+                <img lazyloadsrc="http://www.publicdomainpictures.net/pictures/130000/nahled/beauty-night.jpg" alt="" width="200" height="120" src="http://www.publicdomainpictures.net/pictures/130000/nahled/beauty-night.jpg" style="display: inline;">
+            </a>
+            <span class="loading" style="display: none;"></span>
+        </div>
+        <div class="img">
+            <a href="">
+                <img lazyloadsrc="http://www.publicdomainpictures.net/pictures/30000/nahled/angsklocka-13405489129po.jpg" alt="" width="200" height="120" src="http://www.publicdomainpictures.net/pictures/30000/nahled/angsklocka-13405489129po.jpg" style="display: inline;">
+            </a>
+            <span class="loading" style="display: none;"></span>
+        </div>
+        <div class="img">
+            <a href="">
+                <img lazyloadsrc="http://www.publicdomainpictures.net/pictures/20000/nahled/spiral-flower.jpg" alt="" width="200" height="120" src="http://www.publicdomainpictures.net/pictures/20000/nahled/spiral-flower.jpg" style="display: inline;">
+            </a>
+            <span class="loading" style="display: none;"></span>
+        </div>
+        <div class="img">
+            <a href="">
+                <img lazyloadsrc="http://img.xgo-img.com.cn/pics/1720/1719855.jpg" alt="" width="200" height="120" src="http://img.xgo-img.com.cn/pics/1720/1719855.jpg" style="display: inline;">
+            </a>
+            <span class="loading" style="display: none;"></span>
+        </div>
+    </div>
+</div>
+<script>
+    $(function(){
+        $("[lazyLoadSrc]").YdxLazyLoad({
+            onShow: function () {
+                $(this).parent().next().hide()
+            }
+        });
+    });
+
+
+</script>
+</body>
+</html>
