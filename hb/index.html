@@ -5,8 +5,32 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <title></title>
     <link href="css/index.css" rel="stylesheet"/>
+    <link href="css/menu.css" rel="stylesheet"/>
 </head>
 </body>
+<nav id="menu" class="menu">
+    <a href="#">
+        <header class="menu-header">
+            <span class="menu-header-title">用户名</span>
+        </header>
+    </a>
+    <section class="menu-section">
+        <ul class="menu-section-list">
+            <li><a href="#">我的账户</a></li>
+            <li><a href="#">我的资料</a></li>
+            <li><a href="#">资金状况</a></li>
+            <li><a href="#">存款</a></li>
+            <li><a href="#">划账</a></li>
+            <li><a href="#">提款</a></li>
+            <li><a href="#">历史记录</a></li>
+            <li><a href="#">我的站内信</a></li>
+        </ul>
+    </section>
+</nav>
+<main id="main" class="panel">
+    <button class="btn-hamburger js-slideout-toggle">
+    </button>
+
 <!--头部-->
 <div class="ui-top">
     <header>
@@ -15,15 +39,18 @@
     </header>
 </div>
 <!--导航-->
-<div class="ui-nav">
-    <nav>
+<div class="ui-nav" id="sliderNav">
         <ul>
             <li><a href="#">购彩</a></li>
             <li><a href="#">开奖</a></li>
             <li><a href="#">购彩</a></li>
             <li><a href="#">发现</a></li>
+            <li><a href="#">发现</a></li>
+            <li><a href="#">发现</a></li>
+            <li><a href="#">发现</a></li>
+            <li><a href="#">发现</a></li>
+            <li><a href="#">发现</a></li>
         </ul>
-    </nav>
 </div>
 <!--专区-->
 <div class="content">
@@ -315,36 +342,11 @@
 
 
 <div id="top-animation">顶部</div>
-<script src="js/jquery-1.9.1.min.js"></script>
-<script>
-    /*返回顶部*/
-    window.onload = function(){
-        var oTop = document.getElementById("top-animation");
-//        var screenw = document.documentElement.clientWidth || document.body.clientWidth;
-//        var screenh = document.documentElement.clientHeight || document.body.clientHeight;
-        oTop.style.display ="block";
-        window.onscroll = function(){
-            var scrTop = document.documentElement.scrollTop || document.body.scrollTop;
-            if(scrTop<=15){
-                oTop.style.display ="none";
-            }else{
-                oTop.style.display ="block";
-            }
-        }
-        oTop.onclick = function(){
-            document.documentElement.scrollTop = document.body.scrollTop =0;
-        }
-    };
-    /*tab*/
-    (function () {
-        // 等价于html.style.fontSize = windowWidth / 640 * 100 + 'px';
-        document.addEventListener('DOMContentLoaded', function () {
-            var html = document.documentElement;
-            var windowWidth = html.clientWidth;
-            html.style.fontSize = windowWidth / 6.4 + 'px';
-        }, false);
-    })();
 
+</main>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/slideout.js"></script>
+<script type="text/javascript" src="js/index.js">
 </script>
 </body>
 </html>
