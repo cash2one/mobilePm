@@ -52,13 +52,30 @@ $(function() {
     });
 
     // Processes-bgcolor
-
     var colorArry=['rgb(152, 156, 242)','rgb(75, 191, 236)','rgb(80, 213, 154)','rgb(76, 204, 216)','rgb(75, 189, 236)','rgb(152, 156, 242)'];
     $(".processes-explain ul li").on("mouseenter", function () {
         var intext=$(this).index();
        var d=intext;
         $(".processes-cont").css("background",colorArry[d]);
     });
+   /* $(".processes-color1").on("mouseenter", function() {
+        $(".processes-cont").css("background", "rgb(152, 156, 242)");
+    });
+    $(".processes-color2").on("mouseenter", function() {
+        $(".processes-cont").css("background", "rgb(75, 191, 236)");
+    });
+    $(".processes-color3").on("mouseenter", function() {
+        $(".processes-cont").css("background", "rgb(80, 213, 154)");
+    });
+    $(".processes-color4").on("mouseenter", function() {
+        $(".processes-cont").css("background", "rgb(76, 204, 216)");
+    });
+    $(".processes-color5").on("mouseenter", function() {
+        $(".processes-cont").css("background", "rgb(75, 189, 236)");
+    });
+    $(".processes-color6").on("mouseenter", function() {
+        $(".processes-cont").css("background", "rgb(152, 156, 242)");
+    });*/
 
     // shop
     var LanMu = $(".shop-list");

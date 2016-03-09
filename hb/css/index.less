@@ -53,8 +53,109 @@ a:link, a:visited, a:hover{color:#365db5;}
     span{padding:0 5px;display: inline-block;}
   }
 }
+/*导航*/
+.ui-nav{
+  height:38px;
+  overflow:hidden;
+  background:#f2f2f2;
+  ul{
+   /* display: -webkit-box;*/
+    overflow:hidden;
+  }
+  ul  li{
+    /*-webkit-box-flex:1;*/
+    background: -webkit-gradient(linear,0 0,0 70%,from(#fbfbfb),to(#eee));
+    text-align:center;
+    float: left;
+    height:35px;
+    width:25%;
+    border-bottom: 3px solid #d8d8d8;
+    a{
+      height:37px;
+      line-height: 37px;
+      width:1.5rem;
+      text-align:center;
+      display: block;
+      border-right: 1px solid #c6c6c6;
+    /*  border-left: 1px solid #f8f8f8;*/
+    }
+  }
+}
+
+/*one*/
+.ui-content-item{
+background: #f7f4ed;
+}
+.ui-content-title{
+  height: 32px;line-height:32px;border-bottom: 1px solid #ddd;padding:0 10px;background: #f7f4ed;
+  .more{float: right;}
+}
+
+.ui-dl-list{
+  height: 1rem;
+  position:relative;
+  line-height: 26px;
+  padding-top:10px;
+}
+
+
+/*公用右边箭头*/
+.ui-content-item{
+  ul {
+    li{
+      border-bottom:2px solid #E6DCC3;
+      dt{
+        font-weight:bold;
+
+      }
+      padding:0 10px;
+    }
+  }
+  .ui-dl-list{
+  .ui-icon-right{
+    margin: -28px 5px 0 0;
+  }
+}
+}
+.ui-icon-right{
+  float: right;
+  position: relative;
+  font-size: 0;
+  border-width: 6px;
+  border-style: dashed dashed dashed solid;
+  border-color: transparent transparent transparent #c3c3c3;
+  margin: 12px 0 0 0;
+  em{
+    position: absolute;
+    font-size: 0;
+    border-width: 4px;
+    border-style: dashed dashed dashed solid;
+    border-color: transparent transparent transparent #f1f1f1;
+    top: -4px;
+    left: -6px;
+  }
+}
+
+/*项目主体*/
+.content{background: #ddd;}
+.ui-prom-body{
+  padding-top:10px;
+}
 
 
 
 
 
+/*底部*/
+.ui-footer footer,.ui-footer {
+  text-align:center;padding:10px 5px;
+}
+.ui-footer footer p,.ui-footer p{line-height:20px;}
+.ui-footer{
+  .ui-footer-link{
+    margin-top: 10px;
+    a{font-size:16px;}
+    .active{color:#999;}
+    span{padding:0 10px;}
+  }
+}
