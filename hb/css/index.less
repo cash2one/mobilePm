@@ -1,0 +1,60 @@
+@charset "utf-8";
+body, p, input, h1, h2, h3, h4, h5, h6, ul, li, dl, dt, dd, form {
+    margin:0;
+    padding:0;
+    list-style:none;
+    color:#000;
+    font-family:"\5FAE\8F6F\96C5\9ED1",Microsoft YaHei;
+    vertical-align:middle;
+}
+/*公用部分*/
+html
+{
+  /*font-size为 320 / 640 * 100 = 50(px);*/
+  font-size: 50px;
+}
+body
+{
+  /*侧栏*/
+  background-color: #fff;
+  font-family: '方正兰亭细黑简';
+  /*字体 0.16rem 太小了，无法和小背景图片行高居中对齐（安卓手机兼容不到）*/
+  font-size: 0.2rem;
+}
+img{border:none;}
+a{color:#384f5b;text-decoration:none;}
+a:link, a:visited, a:hover{color:#365db5;}
+/*返回顶部*/
+#top-animation{border-radius: 100%; width:50px; height: 50px;line-height: 50px; color: #fff; background: #ed9c28;
+    position: fixed;
+    bottom:10px;
+    right:10px;
+    text-align: center;
+}
+@colorWhiter:#fff;
+@topcolor:#426F32;
+@topBColor:#19460A;
+/*top*/
+.ui-top{
+    width:100%;
+    height:40px;
+    line-height: 40px;
+    color:@colorWhiter;
+    border-bottom:2px solid @topBColor;
+    background-image: linear-gradient(@topcolor,@topcolor);
+  .logo{
+    float: left;
+    font-size:18px;
+    padding-left:10px;
+  }
+  .ui-user{
+    float:right;
+    padding-right:10px;
+    span{padding:0 5px;display: inline-block;}
+  }
+}
+
+
+
+
+

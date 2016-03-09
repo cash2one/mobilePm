@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title></title>
+    <link href="css/index.css" rel="stylesheet"/>
+</head>
+</body>
+<div class="ui-top">
+    <header>
+        <div class="logo">某某彩票</div>
+        <div class="ui-user">登陆<span>|</span>注册</div>
+    </header>
+</div>
+
+
+
+
+
+
+
+<div id="top-animation">顶部</div>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script>
+    /*返回顶部*/
+    window.onload = function(){
+        var oTop = document.getElementById("top-animation");
+//        var screenw = document.documentElement.clientWidth || document.body.clientWidth;
+//        var screenh = document.documentElement.clientHeight || document.body.clientHeight;
+        oTop.style.display ="block";
+        window.onscroll = function(){
+            var scrTop = document.documentElement.scrollTop || document.body.scrollTop;
+            if(scrTop<=15){
+                oTop.style.display ="none";
+            }else{
+                oTop.style.display ="block";
+            }
+        }
+        oTop.onclick = function(){
+            document.documentElement.scrollTop = document.body.scrollTop =0;
+        }
+    };
+    /*tab*/
+    (function () {
+        // 等价于html.style.fontSize = windowWidth / 640 * 100 + 'px';
+        document.addEventListener('DOMContentLoaded', function () {
+            var html = document.documentElement;
+            var windowWidth = html.clientWidth;
+            html.style.fontSize = windowWidth / 6.4 + 'px';
+        }, false);
+    })();
+
+</script>
+</body>
+</html>
