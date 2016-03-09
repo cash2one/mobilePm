@@ -225,7 +225,8 @@ window.onload = function(){
         document.documentElement.scrollTop = document.body.scrollTop =0;
     }
 }
-/*tab*/
+
+;    /*tab*/
 (function () {
     // 等价于html.style.fontSize = windowWidth / 640 * 100 + 'px';
     document.addEventListener('DOMContentLoaded', function () {
@@ -234,5 +235,4 @@ window.onload = function(){
         html.style.fontSize = windowWidth / 6.4 + 'px';
     }, false);
 })();
-
 

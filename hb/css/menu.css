@@ -120,7 +120,7 @@
 .btn-hamburger {
   border: none;
   position: absolute;
-  top: 5px;
+  top: 0.1rem;
   right: 85px;
   outline: none;
   width: 43px;
@@ -192,8 +192,8 @@
  */
 @media all and (min-width: 40em) {
   .btn-hamburger {
-    top: 20px;
-    left: 30px;
+    top: 0.2rem;
+    right: 133px;
   }
   .panel-header {
     margin-top: 40px;
