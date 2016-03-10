@@ -1,0 +1,301 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>940电商学院 - 最专业的淘宝电商培训，店铺运营推广，电商培训领导者</title>
+<link rel="stylesheet" type="text/css" href="/style/style.css?02">
+<link rel="stylesheet" type="text/css" href="content/themes/tuiguang.css">
+<script type="text/javascript" src="scripts/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="scripts/js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="scripts/tuiguang.js"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <div id="header">
+            <div class='j_topbar'>
+                <div class='j_wrap topBar'>
+                    <div class="fl l_fx">
+                        <span class='fl'> <font>欢迎光临 （www.940.com） 940电商培训</font><i>|</i>
+                            <a href="javascript:" id="feedback">问题反馈</a><i>|</i> <a class='enroll' href="javascript:">立即报名</a>
+                            <!-- 分享： -->
+                        </span>
+                        <!-- <em clas='fl'> <a class='xl' href=""></a> <a class='wb'
+                            href=""></a> <a class='qq' href=""></a> <a class='wx' href=""></a>
+                        </em> -->
+                    </div>
+                    <div class='fr r_log' id='logstatus'></div>
+                </div>
+            </div>
+
+            <div class='wrap_nav'>
+                <div class='j_wrap j_nav'>
+                    <a class='fl logo' href="/"><img class="logo940"
+                        src="/images/logo.png"></a>
+                    <ul class='fr nav_ul'>
+                        <li><a href="/">首页</a></li>
+                        <li><a href="/shop">开店指南</a></li>
+                        <li><a href="/video">视频教学</a></li>
+                        <li><a href="/jianjie">课程简介</a></li>
+                        <li><a href="/teacher">讲师团队</a></li>
+                        <li><a href="/case">成功案例</a></li>
+                        <li><a href="/about">关于我们</a></li>
+                    </ul>
+                    <div class="phone">
+                        <span title='940服务热线'></span> <a title='在线咨询' href="">咨询</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script type="text/javascript">
+        !function(){
+            var _header = document.getElementById('header')
+                ,aLi = _header.getElementsByTagName('li')
+                ,arr = window.location.href.match(/[^\/]\/([a-zA-Z]+)\//)||'home';
+                if (arr[1]=='about') {
+                    aLi[6].children[0].style.width = '90px'
+                }else{
+                    aLi[6].children[0].style.cssText = 'width:auto;margin-left:15px;'
+                }
+            for (var i = 1; i < aLi.length; i++) {
+                var _h = aLi[i].children[0].getAttribute('href').replace('/','');
+                if (arr[1].indexOf(_h)>=0) {
+                    aLi[i].className = 'cur';
+                    return;
+                }
+            };
+            aLi[0].className = 'cur';
+        }();
+    </script>
+
+    <!-- flexslider -->
+    <div class="flexslider-bg">
+        <div class="flexslider">
+            <ul class="slides">
+                <li style="background: url(content/images/tuiguang/flexslider1.jpg) no-repeat 50% 0;"></li>
+                <li style="background: url(content/images/tuiguang/flexslider2.jpg) no-repeat 50% 0;"></li>
+                <li style="background: url(content/images/tuiguang/flexslider3.jpg) no-repeat 50% 0;"></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- tuiguang -->
+    <div class="tuiguang">
+        <!-- 选择 -->
+        <div class="choice">
+            <div class="choice-title choice-rotate"><a class="choice-hover"></a></div>
+            <div class="choice-cont">
+                <dl>
+                    <dt>
+                        <a href="###">
+                            <div class="spinner"></div>
+                            <div class="icon choice-icon1 choice-shadow"></div>
+                            <div class="choice-line"></div>
+                        </a>
+                    </dt>
+                    <dd class="choice-text1"></dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href="###">
+                            <div class="spinner"></div>
+                            <div class="icon choice-icon2 choice-shadow"></div>
+                            <div class="choice-line"></div>
+                        </a>
+                    </dt>
+                    <dd class="choice-text2"></dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href="###">
+                            <div class="spinner"></div>
+                            <div class="icon choice-icon3 choice-shadow"></div>
+                            <div class="choice-line"></div>
+                        </a>
+                    </dt>
+                    <dd class="choice-text3"></dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href="###">
+                            <div class="spinner"></div>
+                            <div class="icon choice-icon4 choice-shadow"></div>
+                            <div class="choice-line"></div>
+                        </a>
+                    </dt>
+                    <dd class="choice-text4"></dd>
+                </dl>
+            </div>
+        </div>
+        <!-- 赚钱 -->
+        <div class="lucrative">
+            <img src="content/images/tuiguang/lucrative.jpg">
+            <div class="lucrative-layout">
+                <div class="lucrative-ctr">
+                    <a href="###">
+                        <div class="btn btn-2 btn-2c">
+                            <div class="hvr"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 难题 -->
+        <div class="problems">
+            <div class="problems-topic"></div>
+            <div class="problems-title problems-rotate"><a class="problems-hover"></a></div>
+            <div class="problems-cont">
+                <dl>
+                    <dt>
+                        <div class="problems-7 problems-7b">
+                            <a href="###" class="hi-icon hi-icon-cog"><i class="problems-icpn1"></i></a>
+                        </div>
+                    </dt>
+                    <dd><a href="###" class="problems-text1"></a></dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <div class="problems-7 problems-7b">
+                            <a href="###" class="hi-icon hi-icon-cog"><i class="problems-icpn2"></i></a>
+                        </div>
+                    </dt>
+                    <dd><a href="###" class="problems-text2"></a></dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <div class="problems-7 problems-7b">
+                            <a href="###" class="hi-icon hi-icon-cog"><i class="problems-icpn3"></i></a>
+                        </div>
+                    </dt>
+                    <dd><a href="###" class="problems-text3"></a></dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <div class="problems-7 problems-7b">
+                            <a href="###" class="hi-icon hi-icon-cog"><i class="problems-icpn4"></i></a>
+                        </div>
+                    </dt>
+                    <dd><a href="###" class="problems-text4"></a></dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <div class="problems-7 problems-7b">
+                            <a href="###" class="hi-icon hi-icon-cog"><i class="problems-icpn5"></i></a>
+                        </div>
+                    </dt>
+                    <dd><a href="###" class="problems-text5"></a></dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <div class="problems-7 problems-7b">
+                            <a href="###" class="hi-icon hi-icon-cog"><i class="problems-icpn6"></i></a>
+                        </div>
+                    </dt>
+                    <dd><a href="###" class="problems-text6"></a></dd>
+                </dl>
+            </div>
+        </div>
+        <!-- 报名 -->
+        <div class="enrolled">
+            <div class="enrolled-cont">
+                <div class="enrolled-ctr">
+                    <div class="enrolled-arrow"></div>
+                </div>
+                <div class="enrolled-ctr2">
+                    <a href="###" class="enrolled-btn"></a>
+                </div>
+            </div>
+        </div>
+        <!-- 学习 -->
+        <div class="learning">
+            <div class="learning-heading">
+                <img src="content/images/tuiguang/learning-service.jpg">
+                <div class="learning-layer">
+                    <div class="learning-title">
+                        <a class="learning-hover"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="learning-fit">
+                <img src="content/images/tuiguang/learning-fit.jpg">
+            </div>
+            <div class="learning-h2">
+                <img src="content/images/tuiguang/.learning-h2.jpg">
+            </div>
+        </div>
+
+        <!-- 课程 -->
+        <div class="curriculum">
+            
+        </div>
+
+        <div class="sales">123456456</div>
+        <div class="certificate">123456456</div>
+    </div>
+
+    <!-- footer -->
+    <div id="footer">
+        <div class="wrapCont">
+            <ul class="foot_con">
+                <li class="padNone">
+                    <h1>合作伙伴</h1>
+                    <div class="foot_link">
+                        <a >淘宝网</a><i>|</i> <a >天猫</a><i>|</i> <a >腾讯QQ</a><i>|</i>
+                        <a >京东商城</a><i>|</i> <a >易购网</a><i>|</i> <a >新浪</a><i>|</i>
+                        <a >优酷网</a><i>|</i> <a >土豆网</a><i>|</i> <a >搜狐</a><i>|</i>
+                        <a >支付宝</a><i>|</i> <a >财付通</a><i>|</i> <a >余额宝</a>
+
+                    </div>
+                </li>
+                <li>
+                    <h1>联系方式</h1>
+                    <div class="foot_contact">
+                        <p>服务热线：400-1000-940</p>
+                        <p>Q Q在线：400-1000-940</p>
+                        <p>企业邮箱：940@sdd.com</p>
+                        <p>公司地址：深圳市龙岗</p>
+                    </div>
+                </li>
+                <li class="follow_li">
+                    <h1>关注分享</h1>
+                    <div class="foot_follow">
+                        <div class="ewm">
+                            <img src="/images/e.png">
+                            <div class="r_txt">
+                                <p>分享到：</p>
+                                <div class='share_link'>
+                                    <div style="position: static;" class="bdsharebuttonbox" data-tag="share_1">
+                                        <a class="a1" href="javascript:"></a>
+                                        <a class="a2" href="javascript:"></a>
+                                        <a class="a3" href="javascript:"></a>
+                                        <a class="a4" data-cmd="weixin" href="javascript:"></a>
+                                        <a class="a5" data-cmd="weixin" href="javascript:"></a>
+                                        <a class="a6" href="javascript:"></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <p class='wx_txt'>微信扫一扫，关注940电商培训</p>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+        <div class="b_record">
+            <p>
+                <b>深圳市九四零教育有限公司</b>&nbsp; Copyright 940jiaoyu.AII Rights Reserved
+                &nbsp; 粤ICP备15080486号
+            </p>
+            <div class="b_ico">
+                <a ><img src="/images/b_1.png"></a> <a ><img
+                    src="/images/b_2.png"></a> <a ><img
+                    src="/images/b_3.png"></a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="/script/fengs.js?2015030"></script>
+    <script type="text/javascript" src='/script/config.js?0830'></script>
+    <script type="text/javascript">Fengs.use('940/index');</script>
+</body>
+</html>
