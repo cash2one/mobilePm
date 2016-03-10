@@ -120,12 +120,13 @@
 .btn-hamburger {
   border: none;
   position: absolute;
-  top: 0.1rem;
+  top: 0.16rem;
   right: 85px;
   outline: none;
-  width: 43px;
-  height: 30px;
-  background: url('../img/header-menu.png') no-repeat left center;
+  width: 0.45rem;
+  height: 0.35rem;
+  background: url('../img/hd-menu.png') no-repeat left center;
+  background-size: contain;
 }
 .tooltip {
   font-size: 20px;
@@ -192,7 +193,7 @@
  */
 @media all and (min-width: 40em) {
   .btn-hamburger {
-    top: 0.2rem;
+    top: 0.15rem;
     right: 133px;
   }
   .panel-header {
