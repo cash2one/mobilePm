@@ -85,6 +85,16 @@ a:hover {
   padding: 0 5px;
   display: inline-block;
 }
+/*公告*/
+.acment {
+  height: 0.5rem;
+  line-height: 0.5rem;
+  padding: 0 0.15rem;
+  background: #fff;
+}
+.acment a {
+  color: red;
+}
 /*导航*/
 .ui-nav {
   height: 38px;

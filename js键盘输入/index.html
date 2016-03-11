@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+        <style>
+        #keynumber,#keymoney{  margin:0px;padding:0px; line-height:20px; display:none;width:100%;}
+        #keynumber #main,#keymoney #main{ list-style:none; border:#999900 dashed 0px; margin:0px auto 1px auto; width:100%; padding:0px; overflow:auto; background:#f6481d; }
+        #keynumber #main2,#keymoney #main2{ list-style:none; border:#999900 dashed 0px; margin:0px auto 1px auto; width:100%; padding:0px; overflow:auto; background:#f6481d; }
+        #keymoney #main,#keymoney #main2{background:#0033FF;}
+        #main td,#main2 td{ text-align:center; border:#FFFF00 solid 1px; padding:1px; margin:1px; width:13.5%; line-height:30px;height:30px; display:block; float:left; cursor:pointer;font-weight: bold; font-size:16px;color:#FFFF00;}
+        #main2 td#esckeynumber,#main td#backkeynumber,#main td#enterkeynumber,#main2 td#esckeymoney,#main td#backkeymoney,#main td#enterkeymoney,#main2 td#Xkeynumber,#main2 td#Xkeymoney{ width:18%; }
+        .meunpage:link { color: #0033cc;font-weight: bold;}
+        .meunpage:visited { color: #0033cc;font-weight: bold;}
+        .meunpage:active {color:#0033cc;font-weight: bold;}
+        .meunpage:hover { color: #0033cc;font-weight: bold;}
+    </style>
+<script src="view/jquery-1.9.1.min.js"></script>
+</head>
+<body>
+<script>
+    var person={
+        name:"xingoo",
+        age:26,
+        say:function(){
+            console.log("say something");
+        },
+        action:function(){
+            console.log("do something");
+        }
+    };
+
+    console.log(person.name);
+    console.log(person.age);
+    person.say();
+    person.action();
+</script>
+
+<table>
+    <tbody>
+    <tr>
+        <td>号码</td>
+        <td><input type="text" name="number" id="number" class="number"></td>
+    </tr>
+    <tr>
+        <td>号码</td>
+        <td><input type="text" name="money" id="money" class="money"></td>
+    </tr>
+    </tbody>
+</table>
+<div id="keypan"></div>
+<script src="view/numberkey.js"></script>
+
+</body>
+</html>
