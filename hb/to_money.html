@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title></title>
+    <link href="css/index.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="nav-header">
+    <a href="index.html" class="btn-back">
+        <i class="icon-back"></i>
+    </a>
+    <div class="all-title-contact">存款</div>
+    <a href="javascript:void(0);" class="ui-btn-more">
+        <i class="iocn-more"></i>
+    </a>
+</div>
+<div class="content">
+    <div class="ui-prom-body">
+    <!-- 聊天室 -->
+    <div class=" ui-prom-toMoney">
+    <div class="chatroom">
+        <ul class="chatroom-ul">
+            <li class="chatroom-li">
+                <div class="chatroom-cont">
+                    <!-- 滑动删除 -->
+                    <div class="chatroom-slide">
+                        <i class="chatroom-icon1"></i>
+                        <div class="chatroom-name">
+                            <p class="h1">中国农业银行</p>
+                            <p>**** **** **** 5588(明)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chatroom-edit">修改</div>
+                <div class="chatroom-delete">删除</div>
+            </li>
+        </ul>
+        <ul class="chatroom-ul">
+            <li class="chatroom-li">
+                <div class="chatroom-cont">
+                    <!-- 滑动删除 -->
+                    <div class="chatroom-slide">
+                        <i class="chatroom-icon2"></i>
+                        <div class="chatroom-name">
+                            <p class="h1">支付宝</p>
+                            <p>*000(明)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chatroom-edit">修改</div>
+                <div class="chatroom-delete">删除</div>
+            </li>
+        </ul>
+        <ul class="chatroom-ul">
+            <li class="chatroom-li-add">
+                <div class="chatroom-cont">
+                    <!-- 滑动删除 -->
+                    <div class="chatroom-slide">
+                        <i class="chatroom-icon3"></i>
+                        <div class="chatroom-name">
+                            <p class="h1">添加提款方式</p>
+                            <p>快速添加</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chatroom-add">添加</div>
+            </li>
+        </ul>
+    </div>
+    </div>
+        <p class="ui-tip"><span>温馨提示:</span>左右滑动可以添加、删除修改和删除支付方式！</p>
+</div>
+</div>
+<div id="top-animation">顶部</div>
+<!--公用js-->
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/comm.js"></script>
+<script type="text/javascript">
+    window.addEventListener('load', function() {
+        var initX;
+        var moveX;
+        var X = 0;
+        var objX = 0;
+        var temp;
+        window.addEventListener('touchstart', function(event) {
+            // event.preventDefault();
+            var obj = event.target.parentNode;
+            if (obj.className == "chatroom-li"||obj.className == "chatroom-li-add") {
+                initX = event.targetTouches[0].pageX;
+                objX = (obj.style.WebkitTransform.replace(/translateX\(/g, "").replace(/px\)/g, "")) * 1;
+            }
+            if (objX == 0) {
+                window.addEventListener('touchmove', function(event) {
+                    // event.preventDefault();
+                    var obj = event.target.parentNode;
+                    if (obj.className == "chatroom-li") {
+                        moveX = event.targetTouches[0].pageX;
+                        X = moveX - initX;
+                        if (X > 0) {
+                            obj.style.WebkitTransform = "translateX(" + 0 + "px)";
+                        } else if (X < 0) {
+
+                            var l = Math.abs(X);
+                            obj.style.WebkitTransform = "translateX(" + -l*2 + "px)";
+                            if (l > 80) {
+                                l = 80;
+                                obj.style.WebkitTransform = "translateX(" + -l*2 + "px)";
+                               /* console.log(temp !== obj);*/
+                                if(temp && temp !== obj){
+                                    temp.style.WebkitTransform = "translateX(" + 0 + "px)";
+                                }
+                            }
+                        }
+                    }else if(obj.className == "chatroom-li-add"){
+                        moveX = event.targetTouches[0].pageX;
+                        X = moveX - initX;
+                        if (X > 0) {
+                            obj.style.WebkitTransform = "translateX(" + 0 + "px)";
+                        } else if (X < 0) {
+
+                            var l = Math.abs(X);
+                            obj.style.WebkitTransform = "translateX(" + -l + "px)";
+                            if (l > 80) {
+                                l = 80;
+                                obj.style.WebkitTransform = "translateX(" + -l + "px)";
+                                /* console.log(temp !== obj);*/
+                                if(temp && temp !== obj){
+                                    temp.style.WebkitTransform = "translateX(" + 0 + "px)";
+                                }
+                            }
+                        }
+                    }
+                });
+            } else if (objX < 0) {
+                window.addEventListener('touchmove', function(event) {
+                    // event.preventDefault();
+                    var obj = event.target.parentNode;
+                    if (obj.className == "chatroom-li") {
+                        moveX = event.targetTouches[0].pageX;
+                        X = moveX - initX;
+                        if (X > 0) {
+                            var r = -80 + Math.abs(X);
+                            obj.style.WebkitTransform = "translateX(" + r*2 + "px)";
+                            if (r > 0) {
+                                r = 0;
+                                obj.style.WebkitTransform = "translateX(" + r*2 + "px)";
+                            }
+                        } else { //向左滑动
+                            obj.style.WebkitTransform = "translateX(" + -80 + "px)";
+                        }
+                    }else if(obj.className == "chatroom-li-add"){
+                        moveX = event.targetTouches[0].pageX;
+                        X = moveX - initX;
+                        if (X > 0) {
+                            var r = -80 + Math.abs(X);
+                            obj.style.WebkitTransform = "translateX(" + r + "px)";
+                            if (r > 0) {
+                                r = 0;
+                                obj.style.WebkitTransform = "translateX(" + r + "px)";
+                            }
+                        } else { //向左滑动
+                            obj.style.WebkitTransform = "translateX(" + -80 + "px)";
+                        }
+                    }
+                });
+            }
+
+        });
+        window.addEventListener('touchend', function(event) {
+            // event.preventDefault();
+            var obj = event.target.parentNode;
+            if (obj.className == "chatroom-li") {
+                objX = (obj.style.WebkitTransform.replace(/translateX\(/g, "").replace(/px\)/g, "")) * 1;
+                if (objX > -40) {
+                    obj.style.WebkitTransform = "translateX(" + 0 + "px)";
+                } else {
+                    obj.style.WebkitTransform = "translateX(" + -160 + "px)";
+                    if(temp && temp !== obj){
+                        temp.style.WebkitTransform = "translateX(" + 0 + "px)";
+                    }
+                    temp = obj;
+                }
+            }else if(obj.className == "chatroom-li-add"){
+                objX = (obj.style.WebkitTransform.replace(/translateX\(/g, "").replace(/px\)/g, "")) * 1;
+                if (objX > -40) {
+                    obj.style.WebkitTransform = "translateX(" + 0 + "px)";
+                } else {
+                    obj.style.WebkitTransform = "translateX(" + -80 + "px)";
+                    if(temp && temp !== obj){
+                        temp.style.WebkitTransform = "translateX(" + 0 + "px)";
+                    }
+                    temp = obj;
+                }
+            }
+        });
+        $(".chatroom-delete").on('touchend', function(e) {
+            e.preventDefault();
+            $(this).parents('ul').slideUp('fast', function() {
+                $(this).remove();
+            })
+        });
+    });
+</script>
+</body>
+</html>

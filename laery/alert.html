@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <style>
+        /*=======我的简历=======*/
+        .meResumeDl{ overflow:hidden; padding:18px 10px 18px 84px; background:#f5f7f7; border-bottom:1px solid #e3e6e6; position:relative;}
+        .meResumeMore{padding:18px 10px 18px 74px; background:#fff;}
+        .meResumeDl dt{width:60px;height:60px;overflow:hidden; border-radius:50%; position:absolute; top:18px; left:10px;}
+        .meResumeDl dt img{ display:block;border-radius:50%;}
+        .meResumeMore dt{ left:0px;}
+        .meResumeDl dd{ width:100%;}
+        .meResumeDl dd h2{ color:#00c0c7; font-size:16px;}
+        .meResumeDl dd h2 span{ display:inline-block; height:19px; vertical-align:2px; line-height:19px; font-family:"宋体"; font-size:12px; color:#fff; padding:1px 5px 0 9px; margin-left:3px; background:url("../img/m/new_person/personage12.png")/*tpa=http://assets.huibo.com/img/m/new_person/personage12.png*/ left center no-repeat #f98700; }
+        .meResumeMore dd h2 span{background:url("../img/m/new_person/personage13.png")/*tpa=http://assets.huibo.com/img/m/new_person/personage13.png*/ left center no-repeat #f98700;}
+        .meResumeMore dd p{ padding:5px 0 10px 0;}
+        .csumeNamepop{background:#fff;border:1px solid red;}
+        .singleTitle{text-align:center;}
+        .nameText{width:300px;margin:auto;}
+        .nameTextBg{text-align:center;}
+        .namePop3{text-align:center;width:300px;margin: 20px auto;}
+        .namePop3 a{width:50px; padding:5px;border:1px solid #ddd;text-decoration:none;}
+    </style>
+    <script  src="jquery-1.8.3.min.js"></script>
+</head>
+<body>
+
+
+<ul class="createResume mgb15">
+<li>
+    <a href="javascript:;" id="start_user_name">
+        <b>真实姓名</b>
+        <span class="gray user_name">请输入真实姓名</span>
+        <i class="icon-svg15"></i>
+    </a>
+    <input type="hidden" name="txtUserName" id="txtUserName" value="" />
+    <input type="hidden" id="chkNameOpen" name="chkNameOpen" value="1"/>
+</li>
+</ul>
+<div class="csumeNamepop" style="display:none;" id="singleInput">
+    <p class="namePop1  singleTitle"></p>
+    <span class="namePop2 errormsg" style="display:none"></span>
+    <div class="nameTextBg">
+        <input type="text" name="nothing" id="singleValue" value="" class="nameText" placeholder=""/>
+    </div>
+    <div class="namePop3">
+        <a href="javascript:;" id="canseInput">取消</a>
+        <a href="javascript:;" class="blue" id="okInput">确定</a>
+    </div>
+</div>
+<script>
+
+var basic = {
+    init:function(){
+        $("#start_user_name").click(function(){
+            singleInput.initialiseInput("真实姓名","请输入2-6位汉字","user_name","#txtUserName",".user_name");
+        });
+    },
+    ChangDgTime:function(select_value){
+        if(select_value==4){
+            $("#dgtime").hide();
+        }else{
+            $("#dgtime").show();
+        }
+    },
+    startWorkchangeCallBack:function(select_value){
+        if(parseInt(select_value)==1){
+            $("#start_start_work b.start_work_name").html("参加工作");
+        }else{
+            $("#start_start_work b.start_work_name").html("毕业时间");
+        }
+    },
+    marriageChange:function(select_value){
+        if(select_value ==2){
+            $("#hddFertility").val(1);
+        }else if(select_value ==3){
+            $("#hddMarriage").val(2)
+            $("#hddFertility").val(2);
+        }
+    },
+    success:function(json){
+        closeLoading();
+        if(json&&json.error){
+            alert(json.error);
+            return;
+        }
+//                            console.log(json.success);
+//                            console.log('http://m.huibo.com/fastregister/registerStepTwo/info-'+json.success);
+        window.location.href = 'fastregister/registerStepTwo/-info=.htm'/*tpa=http://m.huibo.com/fastregister/registerStepTwo/?info=*/+json.success;
+    }
+};
+basic.init();
+
+
+//姓名弹窗
+var singleInput = {
+    initialiseInput:function(title,placeholder,type,valueBindTree,nameBindTree){
+        $("#singleInput").find(".singleTitle").html(title);
+        $("#singleInput input").attr({"placeholder":placeholder}).bind("focus",function(){
+            $("#singleInput .errormsg").hide().html("");
+            $("#singleInput").css({top:"40%"});
+        });
+        var default_value = $(valueBindTree).val();
+        if(default_value !=""){
+            $("#singleInput input").val(default_value);
+        }
+        $("#okInput").bind("click",function(){
+            $("#singleInput").css({top:"50%"});
+            var check_result = singleInput.checkInput(type);
+            if(check_result){
+                var inputValue = $("#singleInput input").val();
+                $(valueBindTree).val(inputValue);
+                $(nameBindTree).html(inputValue).addClass("green").removeClass("gray");
+                singleInput.closeDialog();
+            }
+        });
+        $("#canseInput").bind("click",function(){
+            singleInput.closeDialog();
+            $("#singleInput").css({top:"50%"});
+        });
+        $(".m_master").show();
+        $("#singleInput").show("fast");
+        $("#singleValue").focus();
+    },
+    checkInput:function(type){
+        switch(type){
+            case "user_name":
+                var start = '<em class="icon-svg35"></em>';
+                var inputValue = $("#singleInput input").val();
+                if(inputValue =="" || inputValue.length>6 || inputValue.length<2){
+                    $("#singleInput .errormsg").html(start+"请输入2-6个汉字").show();
+                    return false;
+                }
+                var Regx = /\d/;
+                if(inputValue.match(Regx)){
+                    $("#singleInput .errormsg").html(start+"姓名中不能有数字").show();
+                    return false;
+                }
+                return true;
+            case "id_card":
+                var start = '<em class="icon-svg35"></em>';
+                var inputValue = $("#singleInput input").val();
+//					   if(inputValue ==""){
+//						  $("#singleInput .errormsg").html(start+"身份证号码不能为空").show();
+//						  return false;
+//					  }
+                var Regx = /^\d{17}([0-9]|X|x)$/;
+                if(inputValue !="" && !Regx.test(inputValue)){
+                    $("#singleInput .errormsg").html(start+"身份证号码错误").show();
+                    return false;
+                }
+                return true;
+            case "stature":
+                var start = '<em class="icon-svg35"></em>';
+                var inputValue = $("#singleInput input").val();
+                var Regx = /^\d+$/;
+                if(inputValue ==""){
+                    $("#singleInput .errormsg").html(start+"身高不能为空").show();
+                    return false;
+                }
+                if(inputValue.length<=1){
+                    $("#singleInput .errormsg").html(start+"身高不能为个位数").show();
+                    return false;
+                }
+                if(!Regx.test(inputValue)){
+                    $("#singleInput .errormsg").html(start+"身高只能是数字").show();
+                    return false;
+                }
+                return true;
+            case "avoirdupois":
+                var start = '<em class="icon-svg35"></em>';
+                var inputValue = $("#singleInput input").val();
+                var Regx = /^\d+$/;
+                if(inputValue ==""){
+                    $("#singleInput .errormsg").html(start+"体重不能为空").show();
+                    return false;
+                }
+                if(inputValue.length<=1){
+                    $("#singleInput .errormsg").html(start+"体重不能为个位数").show();
+                    return false;
+                }
+                if(!Regx.test(inputValue)){
+                    $("#singleInput .errormsg").html(start+"体重只能是数字").show();
+                    return false;
+                }
+                return true;
+            case "email":
+                var start = '<em class="icon-svg35"></em>';
+                var inputValue = $("#singleInput input").val();
+                if(inputValue ==""){
+                    $("#singleInput .errormsg").html(start+"邮箱不能为空").show();
+                    return false;
+                }
+                var Regx = /^[a-z0-9]([a-z0-9]*[-_.]?[a-z0-9]+)*@([a-z0-9]*[-_]?[a-z0-9]+)+[\.][a-z0-9]+([\.][a-z0-9]+)?([\.][a-z0-9]{2,3})?$/i;
+                if(!Regx.test(inputValue)){
+                    $("#singleInput .errormsg").html(start+"邮箱格式不正确").show();
+                    return false;
+                }
+                return true;
+            case "mobile":
+                var start = '<em class="icon-svg35"></em>';
+                var inputValue = $("#singleInput input").val();
+                if(inputValue ==""){
+                    $("#singleInput .errormsg").html(start+"电话号码不能为空").show();
+                    return false;
+                }
+                var Regx = /^[1]\d{10}$/;
+                if(!Regx.test(inputValue)){
+                    $("#singleInput .errormsg").html(start+"手机号码格式不正确").show();
+                    return false;
+                }
+                return true;
+            default:
+                return false;
+        }
+    },
+    closeDialog:function(){
+        $(".m_master").hide();
+        $("#singleInput").hide();
+        $("#singleInput").find(".singleTitle").html("");
+        $("#canseInput").unbind();
+        $("#singleInput input").attr({"placeholder":""}).unbind().val("");
+        $("#singleInput .errormsg").hide().html("");
+        $("#okInput").unbind();
+    }
+};
+</script>
+</body>
+</html>

@@ -504,5 +504,21 @@
     </footer>
 </div>
 
+
+
+<script>
+    $(function(){
+        $.ajax({
+                    url: "http://192.168.88.250:8080/mobile/news.jsp",
+                    async: false,
+                    type: "post",
+                    dataType: "jsonp",
+                    jsonpCallback: "callback",
+                    success:function(data) {
+                           alert(data[0].count);
+                    }
+                });
+    });
+</script>
 </body>
 </html>

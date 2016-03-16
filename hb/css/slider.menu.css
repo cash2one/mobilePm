@@ -8,7 +8,6 @@
 .menu-header {
   border-bottom: 1px solid #2a2d2f;
   padding: 20px 0 20px 60px;
-  background: url('../images/github.png') no-repeat 15px 15px;
   background-size: 32px;
 }
 .menu-header-title {
@@ -41,9 +40,7 @@
   background-color: rgba(255, 255, 255, 0.1);
   text-decoration: none;
 }
-/**
- * Header
- */
+/*Header*/
 .panel-header {
   margin: 85px auto 55px;
 }
@@ -276,7 +273,6 @@ body {
 .menu,
 .slideout-menu {
   position: fixed;
-  left: 0;
   top: 0;
   bottom: 0;
   right: 0;
