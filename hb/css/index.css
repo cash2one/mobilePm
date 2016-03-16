@@ -338,7 +338,6 @@ input {
 /*公用表单页面*/
 .ui-form-content {
   padding: 10px;
-  /*按钮*/
 }
 .ui-form-content .ui-label {
   width: 100%;
@@ -356,14 +355,34 @@ input {
   border-radius: 5px;
   min-height: 0.45rem;
 }
-.ui-form-content .ui-btn-blue {
+/*按钮*/
+.ui-btn-blue {
   min-width: 80%;
   border-radius: 5px;
   background: #3F51B5;
   color: #fff;
   margin: auto;
 }
-.ui-form-content .ui-btn-blue input {
+.ui-btn-blue input {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: block;
+  /*opacity:0;*/
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+/*按钮红色*/
+.ui-btn-red {
+  min-width: 80%;
+  border-radius: 5px;
+  color: #fff;
+  margin: auto;
+  background: #D04A46;
+}
+.ui-btn-red input {
   width: 100%;
   height: 100%;
   padding: 10px;
@@ -377,6 +396,13 @@ input {
 /*公用paddingnone*/
 .pdNone {
   padding: 0px!important;
+}
+/*select公用*/
+.ui-select {
+  display: block;
+  width: 100%;
+  margin: auto;
+  height: 0.5rem;
 }
 /*lottery页面*/
 /*存款*/
