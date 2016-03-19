@@ -53,6 +53,7 @@ $(function() {
 
     // Processes-bgcolor
     var colorArry=['rgb(152, 156, 242)','rgb(75, 191, 236)','rgb(80, 213, 154)','rgb(76, 204, 216)','rgb(75, 189, 236)','rgb(152, 156, 242)'];
+    alert(colorArry[0]);
     $(".processes-explain ul li").on("mouseenter", function () {
         var intext=$(this).index();
        var d=intext;

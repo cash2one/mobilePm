@@ -15,7 +15,7 @@
     }, false);
     if ($(".footer-bottom").length > 0) {
         $(".footer-bottom").prev("div").css({
-            "padding-bottom": "1.13rem"
+            "margin-bottom": "1.13rem"
         });
     }
 })();

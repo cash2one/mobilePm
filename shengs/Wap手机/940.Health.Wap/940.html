@@ -21,21 +21,22 @@
     <script type="text/javascript" src="Scripts/js/slideout.min.js"></script>
     <script type="text/javascript" src="Scripts/shengs.js"></script>
 
-<!--     <script type="text/javascript">
+     <script type="text/javascript">
 // 测试 ajax 弹出url接口
 $(function() {
     $.ajax({
-        url: "http://f.apiplus.cn/bj11x5.json",
+        url: "http://940.com/teacherList?page=1&line=2",
         async: false,
-        type: "get",
+        type: "html",
         dataType: "jsonp",
         jsonpCallback: "callback",
         success: function(data) {
-            alert(data.data[0].expect);
+            alert(data.count);
+            $("title").html(data.count)
         }
     });
 });
-</script> -->
+</script>
 
 </head>
 

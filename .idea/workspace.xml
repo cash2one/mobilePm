@@ -2,32 +2,170 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e1e0ff6-250d-47d9-af9a-2fe94e0227e7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hb/img/finger.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hb/img/icon-new.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/940.Health.Wap/ajax.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hb/history_recod.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hb/kaijiang.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hb/lottery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hb/money.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hb/my_account.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hb/my_account_detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hb/my_massage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hb/css/slider.menu.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hb/js/slider_mover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hb/status_funds.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hb/to_money.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/channel-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/channel-btn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/company.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/footer-animation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/footer_icon1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/footer_icon2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/footer_icon3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/footer_icon4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/footer_icon5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/free-img.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/free-img1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/free-img2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/free-img3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/free-img4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/free-img5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/free-img6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/free-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/free-title.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/free-watch.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/header-menu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/header-title.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/header-user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/page/js1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/page/js2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/page/js3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/page/js4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/page/js5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/lectuers-title.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/lectuers1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/lectuers2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/lectuers3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/lectuers4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/lectuers5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/lectuers6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/successful/poster.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/processes-a1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/processes-a2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/processes-a3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/processes-a4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/processes-a5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/processes-a6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/processes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/page/rz1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/page/rz2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/page/rz3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/s-xguide-down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/s-xguide-up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/page/sequence-icon1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/page/sequence-icon2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/shopGuide/shop-stu01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/shopGuide/shop-stu02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/shop-stu1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/shop-stu2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/shop-stu3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/shop-stu4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/shop-stu5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/shop-stu6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/shop-title.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/shopGuide/shop-title2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/shopGuide/shop-title3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/page/sq1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/page/sq2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/page/sq3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/page/sq4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/successful/successes-stu01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/successful/successes-stu02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/successes-stu1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/successes-stu2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/successes-stu3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/successes-stu4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/successes-stu5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/successes-stu6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/successes-title.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/swiper-carousel1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/swiper-carousel2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/swiper-carousel3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/swiper-carousel4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/page/tb1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/page/tb2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/page/tb3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/page/tb4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/page/tb5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/view-icon1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/view-icon2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/view-icon3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/view-icon4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/views/views1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/views/views10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/views/views2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/views/views3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/views/views4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/views/views5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/views/views6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/views/views7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/views/views8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/views/views9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/page/zf1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/page/zf2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/page/zf3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/page/zf4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/page/zf5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/page/zf6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/page/zf7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/images/940/在线咨询.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/themes/940.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/940.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/themes/940.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/PC官网/老员工写的（接口）/940接口 说明.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/新来写的（接口）/940接口说明.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/themes/courses.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/courses.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/themes/free.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/free.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Scripts/free.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hb/ssc/gxsf.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hb/hkc/hkc_bet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hb/hkc/hkc_bet1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hb/hkc/hkc_sxl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/PC官网/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Scripts/js/jquery-1.8.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/themes/page.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Scripts/page.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/page1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/page2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/page3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/page4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/page5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Scripts/shengs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Scripts/shengs.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/themes/shopGuide.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/shopGuide.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Scripts/shopGuide.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/themes/shopSkills.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/shopSkills.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Scripts/shopSkills.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hb/ssc/shsyw.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Scripts/js/slideout.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hb/ssc/ssc_bet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hb/ssc/ssc_content.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hb/ssc/ssc_history.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hb/ssc/ssc_history_bulletin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hb/ssc/ssc_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/themes/successful.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/successful.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Scripts/successful.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Scripts/js/swiper-3.3.1.jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/themes/css/swiper.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/themes/css/swiper.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/Content/themes/views.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/views.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/vip.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hb/ssc/ynsfc.html" />
+      <change type="DELETED" beforePath="D:\mobilePm\hb\Gruntfile.js" afterPath="" />
       <change type="DELETED" beforePath="D:\mobilePm\hb\css\menu" afterPath="" />
-      <change type="DELETED" beforePath="D:\mobilePm\hb\css\menu.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\mobilePm\hb\css\menu.less" afterPath="" />
       <change type="DELETED" beforePath="D:\mobilePm\hb\img\menu.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/940.Health.Wap/940.html" afterPath="$PROJECT_DIR$/940.Health.Wap/940.html" />
+      <change type="DELETED" beforePath="D:\mobilePm\hb\package.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shengs/Wap手机/940.Health.Wap/940.html" afterPath="$PROJECT_DIR$/shengs/Wap手机/940.Health.Wap/940.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hb/js/comm.js" afterPath="$PROJECT_DIR$/hb/js/comm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hb/contact.html" afterPath="$PROJECT_DIR$/hb/contact.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hb.rar" afterPath="$PROJECT_DIR$/hb.rar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hb/css/index.css" afterPath="$PROJECT_DIR$/hb/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hb/index.html" afterPath="$PROJECT_DIR$/hb/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hb/js/index.js" afterPath="$PROJECT_DIR$/hb/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hb/css/index.less" afterPath="$PROJECT_DIR$/hb/css/index.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hb/my_account_detail.html" afterPath="$PROJECT_DIR$/hb/my_account_detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/940.Health.Wap/Scripts/shengs.js" afterPath="$PROJECT_DIR$/940.Health.Wap/Scripts/shengs.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mobilePm.iws" />
@@ -51,11 +189,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hb/index.html">
+      <file leaf-file-name="index.less" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hb/css/index.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.714286" vertical-offset="540" max-vertical-offset="5640">
-              <caret line="49" column="6" selection-start-line="41" selection-start-column="0" selection-end-line="49" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.29553902" vertical-offset="12301" max-vertical-offset="20620">
+              <caret line="623" column="15" selection-start-line="623" selection-start-column="15" selection-end-line="623" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -64,18 +202,8 @@
       <file leaf-file-name="my_account.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hb/my_account.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.3214285" vertical-offset="375" max-vertical-offset="1240">
-              <caret line="22" column="41" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="history_recod.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hb/history_recod.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6242775" vertical-offset="0" max-vertical-offset="1420">
-              <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+            <state vertical-scroll-proportion="-28.964285" vertical-offset="169" max-vertical-offset="1240">
+              <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -84,68 +212,83 @@
       <file leaf-file-name="my_account_detail.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hb/my_account_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-30.178572" vertical-offset="15" max-vertical-offset="1420">
-              <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
+            <state vertical-scroll-proportion="-6.428571" vertical-offset="340" max-vertical-offset="1420">
+              <caret line="26" column="112" selection-start-line="26" selection-start-column="112" selection-end-line="26" selection-end-column="112" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="to_money.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hb/to_money.html">
+      <file leaf-file-name="hkc_sxl.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hb/hkc/hkc_sxl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-47.857143" vertical-offset="0" max-vertical-offset="4240">
-              <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
+            <state vertical-scroll-proportion="-8.928572" vertical-offset="3990" max-vertical-offset="4720">
+              <caret line="212" column="16" selection-start-line="212" selection-start-column="16" selection-end-line="212" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kaijiang.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hb/kaijiang.html">
+      <file leaf-file-name="ssc_bet.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hb/ssc/ssc_bet.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-60.892857" vertical-offset="975" max-vertical-offset="3280">
-              <caret line="134" column="11" selection-start-line="134" selection-start-column="11" selection-end-line="134" selection-end-column="11" />
+            <state vertical-scroll-proportion="-13.75" vertical-offset="915" max-vertical-offset="1780">
+              <caret line="65" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="83" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hb/css/index.less">
+      <file leaf-file-name="hkc_bet.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hb/hkc/hkc_bet.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.679245" vertical-offset="9600" max-vertical-offset="10440">
-              <caret line="503" column="16" selection-start-line="503" selection-start-column="16" selection-end-line="503" selection-end-column="16" />
+            <state vertical-scroll-proportion="-0.8214286" vertical-offset="577" max-vertical-offset="1720">
+              <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hb/css/index.css">
+      <file leaf-file-name="ynsfc.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hb/ssc/ynsfc.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.72" vertical-offset="8072" max-vertical-offset="10260">
-              <caret line="407" column="1" selection-start-line="407" selection-start-column="1" selection-end-line="407" selection-end-column="1" />
+            <state vertical-scroll-proportion="-21.142857" vertical-offset="1888" max-vertical-offset="2800">
+              <caret line="124" column="51" selection-start-line="124" selection-start-column="51" selection-end-line="124" selection-end-column="51" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hkc_bet1.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hb/hkc/hkc_bet1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.964286" vertical-offset="1597" max-vertical-offset="6420">
+              <caret line="98" column="31" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gxsf.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hb/ssc/gxsf.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.857143" vertical-offset="4508" max-vertical-offset="5660">
+              <caret line="235" column="6" selection-start-line="235" selection-start-column="6" selection-end-line="235" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="status_funds.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hb/status_funds.html">
+      <file leaf-file-name="shsyw.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hb/ssc/shsyw.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="12.45283" vertical-offset="1260" max-vertical-offset="2120">
-              <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="alert.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laery/alert.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.857142" vertical-offset="120" max-vertical-offset="4720">
-              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+            <state vertical-scroll-proportion="-40.42857" vertical-offset="5248" max-vertical-offset="7000">
+              <caret line="319" column="62" selection-start-line="319" selection-start-column="62" selection-end-line="319" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -168,15 +311,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/940.Health.Wap/index_picload.html" />
-        <option value="$PROJECT_DIR$/banner_slider/jquery slider按钮控制焦点图片轮播切换代码/Slides/Slides/Slides-SlidesJS-3/examples/playing/js/jquery.slides.min.js" />
-        <option value="$PROJECT_DIR$/banner_slider/chuangdun/scripts/js/jquery.slider.min.js" />
-        <option value="$PROJECT_DIR$/banner_slider/chuangdun/tuiguang.html" />
-        <option value="$PROJECT_DIR$/940.Health.Wap/Scripts/shengs.js" />
-        <option value="$PROJECT_DIR$/slideout/slideout/index.html" />
-        <option value="$PROJECT_DIR$/hb/css/menu.css" />
-        <option value="$PROJECT_DIR$/940.Health.Wap/tab编辑.html" />
-        <option value="$PROJECT_DIR$/940.Health.Wap/js动画.html" />
         <option value="$USER_HOME$/Desktop/chuangdun/chuangdun/scripts/tuiguang.js" />
         <option value="$PROJECT_DIR$/js键盘输入/手机会员.html" />
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DRa0.839/js键盘输入/index.html" />
@@ -185,15 +319,12 @@
         <option value="$PROJECT_DIR$/js键盘输入/view/numberkey.js" />
         <option value="$PROJECT_DIR$/hb/Gruntfile.js" />
         <option value="$PROJECT_DIR$/hb/package.json" />
-        <option value="$PROJECT_DIR$/hb/js/comm.js" />
         <option value="$PROJECT_DIR$/hb/contact.html" />
         <option value="$PROJECT_DIR$/hb/lottery.html" />
         <option value="$PROJECT_DIR$/hb/money.html" />
         <option value="$PROJECT_DIR$/hb/toMoney.html" />
         <option value="$PROJECT_DIR$/hb/kaijiang.html" />
-        <option value="$PROJECT_DIR$/hb/my_account.html" />
         <option value="$PROJECT_DIR$/940.Health.Wap/940.html" />
-        <option value="$PROJECT_DIR$/hb/css/index.css" />
         <option value="$PROJECT_DIR$/hb/css/menu.less" />
         <option value="$PROJECT_DIR$/hb/js/index.js" />
         <option value="$PROJECT_DIR$/hb/js/slider_mover.js" />
@@ -204,12 +335,33 @@
         <option value="$USER_HOME$/Desktop/huibojobs/index.html" />
         <option value="$PROJECT_DIR$/hb/css/slider.menu.less" />
         <option value="$PROJECT_DIR$/laery/alert.html" />
-        <option value="$PROJECT_DIR$/hb/my_account_detail.html" />
         <option value="$PROJECT_DIR$/hb/to_money.html" />
-        <option value="$PROJECT_DIR$/hb/css/index.less" />
         <option value="$PROJECT_DIR$/hb/status_funds.html" />
-        <option value="$PROJECT_DIR$/hb/index.html" />
+        <option value="D:/plugin/mobile-calendar/index.html" />
         <option value="$PROJECT_DIR$/hb/history_recod.html" />
+        <option value="$PROJECT_DIR$/hb/my_account.html" />
+        <option value="$PROJECT_DIR$/hb/huazhang.html" />
+        <option value="$PROJECT_DIR$/hb/ssc/ssclist.html" />
+        <option value="$PROJECT_DIR$/hb/ssc/ssc_list.html" />
+        <option value="$PROJECT_DIR$/shengs/Wap手机/940.Health.Wap/940.html" />
+        <option value="$PROJECT_DIR$/hb/ssc/ssc_history.html" />
+        <option value="$PROJECT_DIR$/hb/ssc/ssc_history_ Bulletin.html" />
+        <option value="$PROJECT_DIR$/hb/ssc/ssc_history_bulletin.html" />
+        <option value="$PROJECT_DIR$/hb/css/index.css" />
+        <option value="$PROJECT_DIR$/940.Health.Wap/Scripts/shengs.js" />
+        <option value="$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/940.html" />
+        <option value="$PROJECT_DIR$/hb/js/comm.js" />
+        <option value="$PROJECT_DIR$/hb/ssc/ssc_bet.html" />
+        <option value="$PROJECT_DIR$/hb/ssc/gxsf.html" />
+        <option value="$PROJECT_DIR$/hb/ssc/shsyw.html" />
+        <option value="$PROJECT_DIR$/hb/ssc/ssc_content.html" />
+        <option value="$PROJECT_DIR$/hb/ssc/ynsfc.html" />
+        <option value="$PROJECT_DIR$/hb/index.html" />
+        <option value="$PROJECT_DIR$/hb/hkc/hkc_sxl.html" />
+        <option value="$PROJECT_DIR$/hb/hkc/hkc_bet.html" />
+        <option value="$PROJECT_DIR$/hb/my_account_detail.html" />
+        <option value="$PROJECT_DIR$/hb/hkc/hkc_bet1.html" />
+        <option value="$PROJECT_DIR$/hb/css/index.less" />
       </list>
     </option>
   </component>
@@ -279,7 +431,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -326,6 +477,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="ssc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobilePm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobilePm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hkc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobilePm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobilePm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -346,6 +533,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,14 +548,25 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\mobilePm\hb\img" />
-      <recent name="D:\mobilePm\js键盘输入\view" />
-      <recent name="D:\mobilePm\940.Health.Wap" />
-      <recent name="D:\mobilePm\hb\js" />
       <recent name="D:\mobilePm" />
+      <recent name="D:\mobilePm\hb\img" />
+      <recent name="D:\mobilePm\hb\css" />
+      <recent name="D:\mobilePm\hb\js" />
+      <recent name="D:\mobilePm\js键盘输入\view" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\mobilePm\hb\js\lib" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -378,12 +577,14 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
       <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -391,16 +592,6 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" />
-      <option name="executablePath" />
-      <option name="filePath" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -424,7 +615,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -435,15 +626,15 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32826087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32826087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -468,137 +659,30 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/slideout/slideout/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/hb/ssc/ynsfc.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="7496" max-vertical-offset="8360">
-          <caret line="412" column="1" selection-start-line="23" selection-start-column="0" selection-end-line="412" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1310" max-vertical-offset="2280">
+          <caret line="85" column="42" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hb/js/slideout.js">
+    <entry file="file://$PROJECT_DIR$/hb/ssc/shsyw.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4462081" vertical-offset="4080" max-vertical-offset="9360">
-          <caret line="163" column="26" selection-start-line="163" selection-start-column="26" selection-end-line="163" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/940.Health.Wap/tab编辑.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1308" max-vertical-offset="2520">
-          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22931035" vertical-offset="3767" max-vertical-offset="5040">
-          <caret line="195" column="16" selection-start-line="195" selection-start-column="16" selection-end-line="195" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="5160" max-vertical-offset="6480">
+          <caret line="261" column="42" selection-start-line="261" selection-start-column="42" selection-end-line="261" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/940.Health.Wap/Scripts/shengs.js">
+    <entry file="file://$PROJECT_DIR$/hb/ssc/gxsf.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="2500">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/940.Health.Wap/Scripts/js/jquery-1.8.2.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="567">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/网站欢迎页进入离开效果/网站欢迎页进入离开效果/welcome/css/animate.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21164021" vertical-offset="0" max-vertical-offset="567">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/940.Health.Wap/animate.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="567">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/940.Health.Wap/js动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.71428573" vertical-offset="600" max-vertical-offset="2760">
-          <caret line="31" column="66" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/网站欢迎页进入离开效果/网站欢迎页进入离开效果/welcome/js/index_sty.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8700114" vertical-offset="763" max-vertical-offset="2180">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/网站欢迎页进入离开效果/网站欢迎页进入离开效果/welcome/css/indexSty.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41666666" vertical-offset="0" max-vertical-offset="864">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="22" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/网站欢迎页进入离开效果/网站欢迎页进入离开效果/welcome/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1699029" vertical-offset="0" max-vertical-offset="980">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slideout/slideout/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="2440">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/chuangdun/chuangdun/tuiguang.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2688" max-vertical-offset="6120">
-          <caret line="281" column="17" selection-start-line="281" selection-start-column="17" selection-end-line="281" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js键盘输入/view/jquery-1.9.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/chuangdun/chuangdun/scripts/tuiguang.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="620">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/js键盘输入1/js键盘输入/view/numberkey.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="963" max-vertical-offset="2080">
-          <caret line="75" column="38" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js键盘输入/手机会员.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.4694834" vertical-offset="0" max-vertical-offset="7900">
-          <caret line="233" column="25" selection-start-line="233" selection-start-column="25" selection-end-line="233" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js键盘输入/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="364" max-vertical-offset="1200">
-          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1280" max-vertical-offset="5100">
+          <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -620,13 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="7134" max-vertical-offset="7700">
           <caret line="379" column="0" selection-start-line="227" selection-start-column="0" selection-end-line="379" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hb/js/comm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71668535" vertical-offset="60" max-vertical-offset="960">
-          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -669,35 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/940.Health.Wap/940.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-32.32143" vertical-offset="6115" max-vertical-offset="10580">
-          <caret line="351" column="22" selection-start-line="351" selection-start-column="22" selection-end-line="351" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/slideout-master/slideout-master/browserify.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="893">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/slideout-master/slideout-master/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6473988" vertical-offset="0" max-vertical-offset="1140">
-          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/slideout-master/slideout-master/test/index.right.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1355" max-vertical-offset="2220">
-          <caret line="92" column="10" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hb/js/slider_mover.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2920" max-vertical-offset="3800">
@@ -706,47 +754,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hb/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/huibo/huibo/m.huibo.com/yunwei/index.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16431925" vertical-offset="4080" max-vertical-offset="27280">
-          <caret line="211" column="21" selection-start-line="211" selection-start-column="21" selection-end-line="211" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Downloads/layer-v2.1/layer-v2.1/layer/layer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.068182" vertical-offset="4560" max-vertical-offset="5440">
           <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/huibo/huibo/m.huibo.com/resume/refreshResume.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3468208" vertical-offset="0" max-vertical-offset="865">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/单页扒站小工具-扒出来的页面非常完美/m.huibo.com/Index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.7652583" vertical-offset="3628" max-vertical-offset="4480">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/huibojobs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.714286" vertical-offset="6540" max-vertical-offset="16940">
-          <caret line="342" column="25" selection-start-line="342" selection-start-column="25" selection-end-line="342" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -762,7 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.428571" vertical-offset="0" max-vertical-offset="680">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -770,78 +780,270 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.857142" vertical-offset="120" max-vertical-offset="4720">
           <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hb/css/calendar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5823068" vertical-offset="0" max-vertical-offset="6180">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hb/js/lib/calendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6954088" vertical-offset="3300" max-vertical-offset="21020">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hb/js/sea.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.045454547" vertical-offset="0" max-vertical-offset="880">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hb/to_money.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.428572" vertical-offset="600" max-vertical-offset="4240">
+          <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hb/css/index.css">
+    <entry file="file://D:/plugin/mobile-calendar/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.72" vertical-offset="8072" max-vertical-offset="10260">
-          <caret line="407" column="1" selection-start-line="407" selection-start-column="1" selection-end-line="407" selection-end-column="1" />
-          <folding />
+        <state vertical-scroll-proportion="0.035523977" vertical-offset="900" max-vertical-offset="2260">
+          <caret line="46" column="5" selection-start-line="36" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hb/css/index.less">
+    <entry file="file://D:/Downloads/group-341_1-jinyuanhd2/res/layout/actionbar_favor.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.679245" vertical-offset="9600" max-vertical-offset="10440">
-          <caret line="503" column="16" selection-start-line="503" selection-start-column="16" selection-end-line="503" selection-end-column="16" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shengs/Wap手机/新来写的（接口）/940接口说明.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6363636" vertical-offset="0" max-vertical-offset="3140">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hb/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76124567" vertical-offset="0" max-vertical-offset="600">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shengs/Wap手机/940.Health.Wap/940.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.714286" vertical-offset="360" max-vertical-offset="10400">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hb/status_funds.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="12.45283" vertical-offset="1260" max-vertical-offset="2120">
-          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="2120">
+          <caret line="69" column="34" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shifu/PC官网/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1860" max-vertical-offset="8560">
+          <caret line="104" column="32" selection-start-line="104" selection-start-column="32" selection-end-line="104" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hb/huazhang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.8472469" vertical-offset="0" max-vertical-offset="1540">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hb/kaijiang.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-60.892857" vertical-offset="975" max-vertical-offset="3280">
-          <caret line="134" column="11" selection-start-line="134" selection-start-column="11" selection-end-line="134" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hb/to_money.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-47.857143" vertical-offset="0" max-vertical-offset="4240">
-          <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hb/my_account_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.178572" vertical-offset="15" max-vertical-offset="1420">
-          <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hb/my_account.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.3214285" vertical-offset="375" max-vertical-offset="1240">
-          <caret line="22" column="41" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hb/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.714286" vertical-offset="540" max-vertical-offset="5640">
-          <caret line="49" column="6" selection-start-line="41" selection-start-column="0" selection-end-line="49" selection-end-column="6" />
+        <state vertical-scroll-proportion="-2.142857" vertical-offset="1220" max-vertical-offset="3280">
+          <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hb/history_recod.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6242775" vertical-offset="0" max-vertical-offset="1420">
-          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        <state vertical-scroll-proportion="-11.535714" vertical-offset="1597" max-vertical-offset="2160">
+          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/940.Health.Wap/940.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7815275" vertical-offset="0" max-vertical-offset="10580">
+          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/940.Health.Wap/Scripts/shengs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="2520">
+          <caret line="54" column="3" selection-start-line="54" selection-start-column="3" selection-end-line="55" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shifu/Wap手机/940.Health.Wap/940.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.821428" vertical-offset="357" max-vertical-offset="11020">
+          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hb/js/comm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="67" max-vertical-offset="960">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hb/ssc/ssc_content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.142858" vertical-offset="4428" max-vertical-offset="5400">
+          <caret line="237" column="46" selection-start-line="237" selection-start-column="46" selection-end-line="237" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hb/ssc/ssc_history_bulletin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.178572" vertical-offset="855" max-vertical-offset="1720">
+          <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hb/ssc/ssc_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.607143" vertical-offset="375" max-vertical-offset="1240">
+          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hb/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3068309" vertical-offset="12106" max-vertical-offset="18960">
+          <caret line="619" column="0" selection-start-line="619" selection-start-column="0" selection-end-line="619" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hb/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.892858" vertical-offset="4735" max-vertical-offset="5660">
+          <caret line="252" column="27" selection-start-line="252" selection-start-column="27" selection-end-line="252" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hb/ssc/ssc_history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-34.464287" vertical-offset="195" max-vertical-offset="1720">
+          <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hb/ssc/ssc_bet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.75" vertical-offset="915" max-vertical-offset="1780">
+          <caret line="65" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="83" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hb/hkc/hkc_bet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.8214286" vertical-offset="577" max-vertical-offset="1720">
+          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hb/hkc/hkc_sxl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.928572" vertical-offset="3990" max-vertical-offset="4720">
+          <caret line="212" column="16" selection-start-line="212" selection-start-column="16" selection-end-line="212" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hb/ssc/gxsf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.857143" vertical-offset="4508" max-vertical-offset="5660">
+          <caret line="235" column="6" selection-start-line="235" selection-start-column="6" selection-end-line="235" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hb/ssc/shsyw.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-40.42857" vertical-offset="5248" max-vertical-offset="7000">
+          <caret line="319" column="62" selection-start-line="319" selection-start-column="62" selection-end-line="319" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hb/ssc/ynsfc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.142857" vertical-offset="1888" max-vertical-offset="2800">
+          <caret line="124" column="51" selection-start-line="124" selection-start-column="51" selection-end-line="124" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hb/my_account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.964285" vertical-offset="169" max-vertical-offset="1240">
+          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hb/my_account_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.428571" vertical-offset="340" max-vertical-offset="1420">
+          <caret line="26" column="112" selection-start-line="26" selection-start-column="112" selection-end-line="26" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hb/hkc/hkc_bet1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.964286" vertical-offset="1597" max-vertical-offset="6420">
+          <caret line="98" column="31" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hb/css/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29553902" vertical-offset="12301" max-vertical-offset="20620">
+          <caret line="623" column="15" selection-start-line="623" selection-start-column="15" selection-end-line="623" selection-end-column="15" />
           <folding />
         </state>
       </provider>
