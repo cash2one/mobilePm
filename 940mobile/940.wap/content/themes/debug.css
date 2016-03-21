@@ -1,0 +1,72 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    /*侧栏*/
+    width: 100%;
+    /*不能加高度，要不然中间区域跟随不到底部：style="padding-bottom: 1.13rem;"*/
+    height: 100%;
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+}
+html
+{
+    /* font-size为 320 / 640 * 100 = 50(px); */
+    /* font-size: 50px; */
+}
+ul, ol, li, dl, dt, dd
+{
+    list-style-type: none;
+    /*侧栏*/
+    margin: 0;
+    padding: 0;
+}
+a
+{
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+}
+img {
+    border: none;
+    outline: none;
+}
+strong
+{
+    font-weight: normal;
+}
+b
+{
+    font-weight: normal;
+}
+i
+{
+    font-style: normal;
+}
+body
+{
+    /*侧栏*/
+    background-color: #fff;
+    font-family: '方正兰亭细黑简';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
