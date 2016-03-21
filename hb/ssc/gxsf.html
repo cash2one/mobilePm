@@ -245,34 +245,5 @@
 <script type="text/javascript" src="../js/comm.js"></script>
 <!--滑动菜单-->
 <script src="../js/slider_mover.js"></script>
-<script>
-    ;$(function(){
-        /*导航弹出*/
-        $(".ui-btn-layer").click(function () {
-            var navHeight=$(".nav-header").height()+'px';
-            $("#jq_menu").toggleClass("jq_more_open").css({"top":navHeight});
-            $(".ui-arrow-down").toggleClass("ui-arrow-up");
-        });
-        $(".ui-menu-nav li").click(function () {
-            $(this).addClass("active").siblings().removeClass("active");
-            jqHs();
-        });
-        function jqHs(){
-            $("#jq_menu").removeClass("jq_more_open");
-            $(".ui-arrow-down").toggleClass("ui-arrow-up");
-        };
-        $(".jq_mark").click(function () {
-            jqHs();
-        });
-        /*圆圈选中效果*/
-        $(".ui-list-mian span").click(function () {
-            $(this).toggleClass("active");
-        });
-        $(".ui-nav-bar a").click(function () {
-            $(this).toggleClass("active").siblings().removeClass("active");
-        });
-
-    });
-</script>
 </body>
 </html>

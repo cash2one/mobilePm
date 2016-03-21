@@ -1,9 +1,8 @@
 /**
  * Created by Administrator on 2016/3/10.
  */
-
-;    /*tab*/
-(function () {
+/*tab*/
+;(function () {
     // 等价于html.style.fontSize = windowWidth / 640 * 100 + 'px';
     document.addEventListener('DOMContentLoaded', function () {
         var html = document.documentElement;
@@ -41,4 +40,33 @@ window.onload = function(){
         document.documentElement.scrollTop = document.body.scrollTop =0;
     };
 };
-
+$(function(){
+    /*导航弹出*/
+    $(".ui-btn-layer").click(function () {
+        var navHeight=$(".nav-header").height()+'px';
+        $("#jq_menu").toggleClass("jq_more_open").css({"top":navHeight});
+        $(".ui-arrow-down").toggleClass("ui-arrow-up");
+    });
+    $(".ui-menu-nav li").click(function () {
+        $(this).addClass("active").siblings().removeClass("active");
+        jqHs();
+    });
+    function jqHs(){
+        $("#jq_menu").removeClass("jq_more_open");
+        $(".ui-arrow-down").toggleClass("ui-arrow-up");
+        clickstop();
+    };
+    $(".jq_mark").click(function () {
+        jqHs();
+    });
+    /*圆圈选中效果*/
+    $(".ui-list-mian span").click(function () {
+        $(this).toggleClass("active");
+    });
+    $(".ui-nav-bar a").click(function () {
+        $(this).toggleClass("active").siblings().removeClass("active");
+    });
+/*    function clickstop(e){
+        e.stopPropagation();
+    };*/
+});

@@ -2,9 +2,114 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <title></title>
+    <link href="../css/index.css" rel="stylesheet"/>
 </head>
 <body>
-
+<div class="nav-header">
+    <a href="../sport/football.html" class="btn-back">
+        <i class="icon-back"></i>
+    </a>
+    <div class="all-title-contact ui-btn-layer">提交</div>
+    <a href="javascript:void(0);" class="ui-btn-more">
+        <i class="iocn-more"></i>
+    </a>
+</div>
+<!--<div  class="ui-content-title">
+    下注<span> 期数:2015150    正1特不中 二十不中</span>
+</div>-->
+<div class="content">
+<!--项目主体-->
+<div class="ui-prom-body">
+<section>
+<div class="ui-list-mian ui-bg-whiter ui-bm15">
+    <div class="ui-bet-list ui-border-default ui-col80 ui-bg-whiter">
+        <dl class="ui-dl-bet ui-border-bottom">
+            <dt>
+                美国 VS 哥伦比亚
+            </dt>
+            <dd>哥伦比亚 +0 @ 1.040  </dd>
+            <dd ><span class="ui-dd-delete">×</span></dd>
+        </dl>
+        <dl class="ui-dl-bet ui-border-bottom">
+            <dt>
+                美国 VS 哥伦比亚
+            </dt>
+            <dd>哥伦比亚 +0 @ 1.040  </dd>
+            <dd ><span class="ui-dd-delete">×</span></dd>
+        </dl>
+        <dl class="ui-dl-bet ui-border-bottom">
+            <dt>
+                美国 VS 哥伦比亚
+            </dt>
+            <dd>哥伦比亚 +0 @ 1.040  </dd>
+            <dd ><span class="ui-dd-delete">×</span></dd>
+        </dl>
+        <dl class="ui-dl-bet ui-border-bottom">
+            <dt>
+                美国 VS 哥伦比亚
+            </dt>
+            <dd>哥伦比亚 +0 @ 1.040  </dd>
+            <dd ><span class="ui-dd-delete">×</span></dd>
+        </dl>
+        <dl class="ui-dl-bet ui-border-bottom">
+            <dt>
+                美国 VS 哥伦比亚
+            </dt>
+            <dd>哥伦比亚 +0 @ 1.040  </dd>
+            <dd ><span class="ui-dd-delete">×</span></dd>
+        </dl>
+        <dl class="ui-dl-bet ui-border-bottom">
+            <dt>
+                美国 VS 哥伦比亚
+            </dt>
+            <dd>哥伦比亚 +0 @ 1.040  </dd>
+            <dd ><span class="ui-dd-delete">×</span></dd>
+        </dl>
+        <dl class="ui-dl-bet ui-border-bottom">
+            <dt>
+                美国 VS 哥伦比亚
+            </dt>
+            <dd>哥伦比亚 +0 @ 1.040  </dd>
+            <dd ><span class="ui-dd-delete">×</span></dd>
+        </dl>
+    </div>
+    <div class="ui-form-content ui-bg-whiter">
+        <div class="ui-label">
+            <input type="text" name="money" class="ui-col88 ui-margin-auto"  placeholder="请输入没注金额"/>
+        </div>
+    </div>
+</div>
+</section>
+</div>
+<!--项目主体end-->
+</div>
+<div class="footer-bottom blank">
+    <div class="footer-info">
+        <span>账号：jagger</span>
+        <span>余额：100</span>
+    </div>
+    <span class="ui-color-whiter ui-padding-left10">
+        共1注12元
+    </span>
+    <a href="#" class="ui-btn-single ui-btn-single-yellow" style="right:1.5rem;">取消</a>
+    <a href="#" class="ui-btn-single">确认</a>
+</div>
+<div id="top-animation">顶部</div>
+<!--公用js-->
+<script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="../js/comm.js"></script>
+<script>
+    ;$(function () {
+        $(".ui-dd-delete").click(function () {
+            $(this).parent().parent().slideUp(
+                    function () {
+                        return this.remove();
+                    }
+            );
+        });
+    });
+</script>
 </body>
 </html>

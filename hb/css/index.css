@@ -83,6 +83,10 @@ input {
 .ui-color-whiter {
   color: #fff;
 }
+/*灰白色*/
+.ui-bg-default {
+  background: #f7f4ed;
+}
 /*红色*/
 .ui-color-red {
   color: red;
@@ -170,7 +174,7 @@ input {
 }
 /*导航*/
 .ui-nav {
-  height: 38px;
+  height: 0.6rem;
   overflow: hidden;
   background: #f2f2f2;
   /*  width: calc(100% - 2.5rem);
@@ -185,13 +189,13 @@ input {
   background: -webkit-gradient(linear, 0 0, 0 70%, from(#fbfbfb), to(#eee));
   text-align: center;
   float: left;
-  height: 35px;
+  height: 0.58rem;
   /*width:25%;*/
   border-bottom: 3px solid #d8d8d8;
 }
 .ui-nav ul li a {
-  height: 37px;
-  line-height: 37px;
+  height: 0.58rem;
+  line-height: 0.58rem;
   /*width:1.5rem;*/
   text-align: center;
   display: block;
@@ -421,6 +425,16 @@ input {
   text-align: center;
   width: .94rem;
 }
+.icon-filter {
+  line-height: 0.6rem;
+  display: block;
+  vertical-align: middle;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  float: left;
+}
 /*列表公用高度*/
 .list-height40 {
   height: 0.55rem;
@@ -438,7 +452,7 @@ input {
   padding: 10px;
 }
 .ui-form-content .ui-label {
-  width: 100%;
+  /*width:100%;*/
   padding: 0px 5px 20px;
 }
 .ui-form-content .ui-label label {
@@ -696,6 +710,9 @@ ol li {
 .ui-col80 {
   width: 80%;
 }
+.ui-col88 {
+  width: 88%!important;
+}
 .ui-text-ct {
   text-align: center;
 }
@@ -726,6 +743,9 @@ ol li {
        }*/
 }
 /*ui-bt10*/
+.ui-margin-auto {
+  margin: auto;
+}
 .ui-bm5 {
   padding-bottom: 5px;
 }
@@ -860,10 +880,54 @@ ol li {
 /*确认结果列表*/
 .ui-bet-list {
   margin: 0 auto;
-  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 .ui-bet-list .ui-dl-bet {
+  position: relative;
   padding: 0.2rem;
+}
+/*球*/
+/*
+.ui-table{
+border:1px solid #e7d5bb;
+}
+*/
+/*公用span*/
+.ui-span-title,
+.ui-span-content {
+  display: block;
+}
+.ui-span-content {
+  color: #d04a46;
+}
+.ui-table-sport tbody td:first-child {
+  border-right: 1px solid #ddd;
+}
+.ui-table-sport tbody td:last-child {
+  border-left: 1px solid #ddd;
+}
+/*sport choose*/
+.ui-table-sport span.ui-choose-sport.active {
+  background: #e7d5bb;
+  display: block;
+  color: #fff;
+}
+/*公用删除小按钮*/
+.ui-dd-delete {
+  border-radius: 100%;
+  width: 0.2rem;
+  height: 0.2rem;
+  line-height: 0.2rem;
+  padding: 0.1rem;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #e7d5bb;
+  display: inline-block;
+}
+.ui-dl-bet dd .ui-dd-delete {
+  position: absolute;
+  right: 0.2rem;
+  margin-top: -0.5rem;
 }
 /*lottery页面*/
 /*存款*/
