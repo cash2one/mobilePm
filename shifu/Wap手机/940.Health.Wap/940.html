@@ -22,7 +22,7 @@
     <script type="text/javascript" src="Scripts/shengs.js"></script>
 
     <script type="text/javascript">
-        $(function() {
+    /*    $(function() {
             $.ajax({
                 url: "http://940.com/teacherList?page=1&line=2",
                 async: false,
@@ -38,23 +38,64 @@
         alert(colorArry[0]);
 
 
+*/
 
 
+
+    $.ajax({
+        type: 'get',
+        url: 'http://940.com/videoList?page=1&line=1&type=3',
+        dataType: 'jsonp',
+        processData: false,
+        contentType: "application/x-www-form-urlencoded; charset=utf-8",
+        success: function(data) {
+            var data=JSON.parse(data);
+            // $('video_test')
+           /* var list = $('.free-closure');
+            if (data.count && data.count > 0) {
+                list.html("");
+                var content = "";
+                for (var i = 0; i < data.list.length; i++) {
+                    var item = data.list[i];
+                    content = "";
+                    if (i % 2 == 0) {
+                        content += "<dl class=\"free-dl free-cont1\">";
+                    } else {
+                        content += "<dl class=\"free-dl free-cont2\">";
+                    }
+                    content += "<dt class=\"free-dt1\">";
+                    content += "<a href=\"###\"><img src=\"" + item.preview + "\"></a>";
+                    content += "</dt>";
+                    content += "<dd class=\"free-big\"><span>三步&mdash;&mdash;快速抠出头发丝的技巧</span></dd>";
+                    content += "<dd class=\"free-small\">";
+                    content += "<div class=\"free-date\">发布：2016-02-04</div>";
+                    content += "<div class=\"free-watch\"><i></i><span>19845</span></div>";
+                    content += "</dd>";
+                    content += "<>";
+
+                    list.append(content);
+                    console.log(data);
+                }
+            }*/
+            alert(data);
+        }
+
+    });
 
     </script>
 
 
-    <script type="text/javascript">
-        var obj="new1abcdefg".replace(/(.)(?=[^$])/g,"$1,").split(","); //字符串转化为数组
-        var obj2 = "new2abcdefg".split(""); //字符串转化为数组
-        alert(obj);
-        alert(obj.length);
-        alert(obj instanceof Array);
-        alert(obj.join("")); //数组转化为字符串
-        var s = "abc,abcd,aaa";
-        ss = s.split(",");
-        alert(ss);
-    </script>
+    <!--<script type="text/javascript">-->
+        <!--var obj="new1abcdefg".replace(/(.)(?=[^$])/g,"$1,").split(","); //字符串转化为数组-->
+        <!--var obj2 = "new2abcdefg".split(""); //字符串转化为数组-->
+        <!--alert(obj);-->
+        <!--alert(obj.length);-->
+        <!--alert(obj instanceof Array);-->
+        <!--alert(obj.join("")); //数组转化为字符串-->
+        <!--var s = "abc,abcd,aaa";-->
+        <!--ss = s.split(",");-->
+        <!--alert(ss);-->
+    <!--</script>-->
 
 
 
