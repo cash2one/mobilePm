@@ -800,7 +800,7 @@ ol li {
 }
 .ui-table-main tr td,
 .ui-table-main tr th {
-  padding: 0.15rem;
+  padding: 0.1rem;
   line-height: 1.42857143;
   vertical-align: middle;
   border-top: 1px solid #ddd;

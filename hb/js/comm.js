@@ -54,7 +54,7 @@ $(function(){
     function jqHs(){
         $("#jq_menu").removeClass("jq_more_open");
         $(".ui-arrow-down").toggleClass("ui-arrow-up");
-        clickstop();
+        /*clickstop();*/
     };
     $(".jq_mark").click(function () {
         jqHs();
