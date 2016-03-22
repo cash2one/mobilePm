@@ -80,10 +80,10 @@ $(function() {
         success: function(data) {
 
             var list = $('.lectuers-teacher1');
-            var list1 = $('.lectuers-teacher1');
+            var list1 = $('.lectuers-teacher2');
             if (data.count && data.count > 0) {
                 list.html("");
-                list1.html("");
+
                 var content = "";
                 for (var i = 0; i < 3; i++) {
                     var item = data.list[i];
@@ -92,20 +92,22 @@ $(function() {
                     content += "<a href=\"javascript:;\">";
                     content += "<dt><img src=\"" + item.profileUrl + "\"></dt>";
                     content += "<dd>"+item.name+"</dd>";
-                    /*content += "<dd>"+item.title+"</dd>";*/
                     content += "</a>";
                     content += "</dl>";
 
                     list.append(content);
                 }
-                for (var i = 0; i > 3; i++) {
+            }
+            if (data.count && data.count > 0) {
+                list1.html("");
+                var content = "";
+                for (var i = 0; i >3; i++) {
                     var item = data.list[i];
                     content = "";
                     content += "<dl>";
                     content += "<a href=\"javascript:;\">";
                     content += "<dt><img src=\"" + item.profileUrl + "\"></dt>";
                     content += "<dd>"+item.name+"</dd>";
-                    /*content += "<dd>"+item.title+"</dd>";*/
                     content += "</a>";
                     content += "</dl>";
 
@@ -209,14 +211,14 @@ $(function() {
             if (data.count && data.count > 0) {
                 list.html("");
                 var content = "";
-                alert(data.list[1].preview);
+               /* alert(data.list[1].preview);*/
                 for (var i = 0; i < data.list.length; i++) {
                     var item = data.list[i];
                     content = "";
                     content += "<li>";
                     content += "<a href=\"javascript:;\">";
                     content += "<dl class=\"shop-stu\">";
-                    content += "<dt><img  src=\"" + item.preview + "\"></dt>";
+                    content += "<dt><img src=\"" + item.preview + "\"></dt>";
                     content += "<dd class=\"shop-big\"><span>"+item.title+"</span></dd>";
                     content += "<dd class=\"shop-small\">";
                     content += "<div class=\"shop-date\">"+item.time+"</div>";
