@@ -70,10 +70,10 @@ $(function() {
 
 
 
-    // 讲师团队http://www.940.com/teacherList?page=1&line=3&callback=?
+    // 讲师团队http://www.940.com/teacherList?page=1&line=6&callback=?
     $.ajax({
         type: 'get',
-        url: 'http://www.940.com/teacherList?page=1&line=3&callback=?',
+        url: 'http://www.940.com/teacherList?page=1&line=6&callback=?',
         dataType: 'jsonp',
         processData: false,
         contentType: "application/x-www-form-urlencoded; charset=utf-8",
@@ -83,25 +83,9 @@ $(function() {
             var list1 = $('.lectuers-teacher2');
             if (data.count && data.count > 0) {
                 list.html("");
-
-                var content = "";
-                for (var i = 0; i < 3; i++) {
-                    var item = data.list[i];
-                    content = "";
-                    content += "<dl>";
-                    content += "<a href=\"javascript:;\">";
-                    content += "<dt><img src=\"" + item.profileUrl + "\"></dt>";
-                    content += "<dd>"+item.name+"</dd>";
-                    content += "</a>";
-                    content += "</dl>";
-
-                    list.append(content);
-                }
-            }
-            if (data.count && data.count > 0) {
                 list1.html("");
                 var content = "";
-                for (var i = 0; i >3; i++) {
+                for (var i = 0; i <data.list.length; i++) {
                     var item = data.list[i];
                     content = "";
                     content += "<dl>";
@@ -110,11 +94,13 @@ $(function() {
                     content += "<dd>"+item.name+"</dd>";
                     content += "</a>";
                     content += "</dl>";
-
-                    list1.append(content);
+                    if(i<3){
+                        list.append(content);
+                    }else{
+                        list1.append(content);
+                    }
                 }
             }
-
         }
 
     });
@@ -237,7 +223,7 @@ $(function() {
 
 
 
-    // 成功案例http://940.com/articleList?page=1&line=1&type=6&callback=?
+    // 成功案例http://www.940.com/articleList?page=1&line=10&type=0&callback=?
     $.ajax({
         type: 'get',
         url: 'http://www.940.com/articleList?page=1&line=10&type=0&callback=?',
@@ -258,7 +244,7 @@ $(function() {
                     content += "<li>";
                     content += "<a href=\"javascript:;\">";
                     content += "<dl class=\"successes-stu\">";
-                    content += "<dt><img src=\"" + item.preview + "\"></dt>";
+                    content += "<dt><img src=\" "+ item.preview +" \"></dt>";
                     content += "<dd class=\"successes-big\"><span>"+item.title+"</span></dd>";
                     content += "<dd class=\"successes-small\">";
                     content += "<div class=\"left\">月赚</div>";
@@ -270,7 +256,6 @@ $(function() {
                     content += "</dl>";
                     content += "</a>";
                     content += "</li>";
-console.log(item.inCome);
                     list.append(content);
                 }
             }
