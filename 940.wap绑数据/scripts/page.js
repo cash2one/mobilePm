@@ -50,9 +50,24 @@ $(function() {
         var clr = incolor;
         $(".processes-cont").css("background", colorArry[clr]);
     });
-    // $('.processes-explain ul li').click(function() {
-    //     $('.processes-explain ul li').removeClass('processes-hit');
-    //     $(this).addClass('processes-hit');
-    // });
+    $('.processes-explain ul li').click(function() {
+        $('.processes-explain ul li').removeClass('processes-hit');
+        $(this).addClass('processes-hit');
+    });
+/*    var urlstr = location.href;
+    //alert((urlstr + '/').indexOf($(this).attr('href')));
+    var urlstatus = false;
+    $(".processes-explain ul li a").each(function() {
+        if ((urlstr + '/').indexOf($(this).attr('href')) > -1 && $(this).attr('href') != '') {
+            $(this).addClass('hover');
+            urlstatus = true;
+        } else {
+            $(this).removeClass('hover');
+        }
+    });
+    if (!urlstatus) {
+        $(".processes-explain ul li a").eq(0).addClass('hover');
+    }*/
+
 
 });

@@ -79,74 +79,194 @@ $(function() {
 
     });
     // 注册表单验证
-    $("#registerForm").validate({
+    $(".register-form").validate({
         rules:{
             username:{
                 required:true,  // 必填
-                minlength:3,    // 最少6个字符
-                maxlength:32,   // 最多20个字符
-                remote:{
+                minlength:6,    // 最少6个字符
+                maxlength:20,   // 最多20个字符
+/*                remote:{
                     url:"http://kouss.com/demo/Sharelink/remote.json",  // 用户名重复检查，别跨域调用
                     type:"post",
-                },
+                }*/
             },
             password:{
                 required:true,
-                minlength:3,
-                maxlength:32,
-            },
-            email:{
-                required:true,
-                email:true,
+                minlength:6,
+                maxlength:20,
             },
             confirm_password:{
                 required:true,
-                minlength:3,
+                minlength:6,
                 equalTo:'.password'
             },
-            phone_number:{
+            captcha:{
                 required:true,
-                phone_number:true,  // 自定义的规则
-                digits:true,        // 整数
+                minlength:5,
+                maxlength:5,
             }
         },
         // 错误信息提示
         messages:{
             username:{
                 required:"必须填写用户名",
-                minlength:"用户名至少为3个字符",
-                maxlength:"用户名至多为32个字符",
+                minlength:"用户名至少为6个字符",
+                maxlength:"用户名至多为20个字符",
                 remote: "用户名已存在",
             },
             password:{
                 required:"必须填写密码",
-                minlength:"密码至少为3个字符",
-                maxlength:"密码至多为32个字符",
-            },
-            email:{
-                required:"请输入邮箱地址",
-                email: "请输入正确的email地址"
+                minlength:"密码至少为6个字符",
+                maxlength:"密码至多为20个字符",
             },
             confirm_password:{
                 required: "请再次输入密码",
-                minlength: "确认密码不能少于3个字符",
+                minlength: "确认密码不能少于6个字符",
                 equalTo: "两次输入密码不一致",   // 与另一个元素相同
             },
-            phone_number:{
-                required:"请输入手机号码",
-                digits:"请输入正确的手机号码",
-            },
+            captcha:{
+                required:"请输入图片验证码",
+                minlength:"输入图片验证码为5个字符",
+                maxlength:"图片验证码必须为5个字符",
+            }
 
-        },
+        }
     });
-    // 添加自定义验证规则
-    jQuery.validator.addMethod("phone_number", function(value, element) {
-        var length = value.length;
-        var phone_number = /^(((13[0-9]{1})|(15[0-9]{1}))+\d{8})$/;
-        return this.optional(element) || (length == 11 && phone_number.test(value));
-    }, "手机号码格式错误");
+/*验证码*/
 
 
 
+
+    /*          $.getJSON('http://940.com/checkCode?', 'vcode=' + vcode, check_vcode_callback, 'text');*/
+    function yazmbd() {
+        var yanzm = $.param({
+            code: $(".captcha").val()
+        });
+        $.ajax({
+            async: false,
+            type: "post",
+            url: 'http://940.com/checkCode',
+            dataType: 'jsonp',
+            data: yanzm,
+            jsonp: 'callback',
+            success: function (data) {
+                console.log(yanzm);
+              /*  console.log(yanzm);*/
+                if (data.status == 0) {
+                    alert(data.tips);
+                }
+                if (data.status == 1) {
+                    alert("验证码正确");
+                }
+                if (data.status == -1) {
+                    alert("没有定义");
+                }
+                if (data.status ==-9) {
+                    alert("验证码错误");
+                }
+            },
+            error: function () {
+                alert("加载失败！");
+            }
+        });
+    }
+
+
+
+    // 打钩
+    $(".btnCheck").click(function() {
+        $(".login-check").toggleClass("checked");
+    });
+
+    // 注册接口 http:940.com/register?user_name=ing@sududa.com&password=111111
+    var $ajaxForm = $('.register-form');
+    $ajaxForm.bind('submit', function(event) {
+
+        event.preventDefault();
+        var param = $.param({
+            user_name: $(".username").val(),
+            password: $(".password").val(),
+            captcha: $(".captcha").val()
+        });
+        $.ajax({
+            async: false,
+            type: "get",
+            url: 'http://940.com/register',
+            dataType: 'jsonp',
+            data: param,
+            jsonp: 'callback',
+            success: function(data) {
+                yazmbd();
+                if (data.status == 1) {
+                    alert(data.tips);
+                } else if (data.status == -9) {
+                    alert(data.tips);
+                } else {
+                    alert("注册失败！");
+                }
+            }
+        });
+
+    });
+
+
+
+    /*登陆接口*/
+    var $ajaxForm = $('.login-form');
+    $ajaxForm.bind('submit', function(event) {
+        event.preventDefault();
+        var paramlogin = $.param({
+            user_name: $(".login-user").val(),
+            password: $(".login-passw").val()
+        });
+        console.log(paramlogin);
+        $.ajax({
+            async: false,
+            type: "get",
+            url: 'http://www.940.com/login',
+            dataType: 'jsonp',
+            data: paramlogin,
+            jsonp: 'callback',
+            success: function(data) {
+                if (data.status == 1) {
+                    alert(data.tips);
+                    window.location.href="index.html";
+                } else if (data.status == -9) {
+                    alert(data.tips);
+                } else {
+                    alert("data.tips");
+                }
+            }
+        });
+    });
+
+  /*  *//*登陆接口*//*
+    var $ajaxForm = $('.login-form');
+    $ajaxForm.bind('submit', function(event) {
+        event.preventDefault();
+        var paramlogin = $.param({
+            user_name: $(".login-ipt input").val(),
+            password: $(".login-ipt input").val()
+        });
+        $.ajax({
+            async: false,
+            type: "post",
+            url: 'http://www.940.com/login',
+            dataType: 'jsonp',
+            data: paramlogin,
+            jsonp: 'callback',
+            success: function (data) {
+                if (data.status == 1) {
+                    alert("data.tips");
+                }
+                if (data.status ==-9) {
+                    alert(data.tips);
+                }
+            },
+            error: function () {
+                alert("加载失败！");
+            }
+        });
+    });*/
 
 });

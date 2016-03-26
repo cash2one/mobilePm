@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="author" content="www.frebsite.nl" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+    <meta name="robots" content="noindex, nofollow" />
+
+    <title></title>
+
+    <link type="text/css" rel="stylesheet" href="../css/docs.css" />
+    <link type="text/css" rel="stylesheet" href="../css/mmenu.css" />
+    <link type="text/css" rel="stylesheet" href="../css/zebra_datepicker.css" />
+
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/jquery.mmenu.js"></script>
+    <script type="text/javascript" src="../js/zebra_datepicker.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('nav#menu').mmenu();
+        });
+    </script>
+</head>
+<body>
+<div id="page">
+    <div id="header">
+        <a href="#menu"></a>
+        会员
+        <span  id="search">筛选</span>
+    </div>
+    <div id="content">
+        <div class="pwd-list" style="display: none;">
+                <div class="meberport-item">
+                    <label>时间：&nbsp;&nbsp;<input type="text" id="datepicker-example1" class="date"></label>
+                    <label>至&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" class="date" id="datepicker-example2"></label>
+                    <label>姓名：&nbsp;&nbsp;<input type="text"> </label>
+                    <label>账号：&nbsp;&nbsp;<input type="text"></label>
+                    <label>注单数：&nbsp;<input type="text">-<input type="text"></label>
+                </div>
+            <div class="meberport-item">
+                <label>投注额：&nbsp;<input type="text">-<input type="text"></label>
+                <label>有效金额：<input type="text">-<input type="text">
+                </label><label>输赢金额：<input type="text">-<input type="text"></label>
+            </div>
+            <button class="pwd-button">查询</button>
+        </div>
+        <div class="pesonal-grad">
+
+            <div class="pesonal-arad-list">
+
+                <div class="menbreport-list">
+                    <h1>当前用户：111</h1>
+                    <div class="menbreport-content-item cleafixd">
+                        <div class="report-list cleafixd">
+                            <label><span>姓名：</span>总计</label>
+                            <label><span>账号：</span>dremnms</label>
+                        </div>
+                            <div class="report-list cleafixd">
+                                <label><span>注册数：</span>12</label>
+                                <label><span>投注额：</span>100</label>
+                            </div>
+                            <div class="report-list cleafixd">
+                                <label><span>有效金额：</span>100</label>
+                                <label><span>输赢金额：</span>100</label>
+                            </div>
+                            <div class="report-list cleafixd">
+                                <label><span>结算金额：</span>100</label>
+                                <label><span>佣金：</span>100</label>
+                            </div>
+                        </div>
+                </div>
+                <div class="menbreport-list">
+                    <h1>当前用户：111</h1>
+                    <div class="menbreport-content-item cleafixd">
+                        <div class="report-list cleafixd">
+                            <label><span>姓名：</span>总计</label>
+                            <label><span>账号：</span>dremnms</label>
+                        </div>
+                        <div class="report-list cleafixd">
+                            <label><span>注册数：</span>12</label>
+                            <label><span>投注额：</span>100</label>
+                        </div>
+                        <div class="report-list cleafixd">
+                            <label><span>有效金额：</span>100</label>
+                            <label><span>输赢金额：</span>100</label>
+                        </div>
+                        <div class="report-list cleafixd">
+                            <label><span>结算金额：</span>100</label>
+                            <label><span>佣金：</span>100</label>
+                        </div>
+                    </div>
+                </div>
+               <!-- <table>
+                    <thead>
+                    <tr>
+                        <td>姓名 </td>
+                        <td>账号</td>
+                        <td>注册数</td>
+                        <td>投注额</td>
+                        <td>有效金额</td>
+                        <td>输赢金额</td>
+                        <td>结算金额</td>
+                        <td>佣金</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>总计</td>
+                        <td>dremnms</td>
+                        <td>tttt</td>
+                        <td>192.168</td>
+                        <td>2015.6.3</td>
+                        <td>2015.6.3</td>
+                        <td>2015.6.3</td>
+                        <td>2015.6.3</td>
+                    </tr>
+                    </tbody>
+                </table>-->
+            </div>
+            <!--<div class="table-page">
+                <div class="page-list">
+                 <button>首页</button><button>上一页</button><button>1</button><button>下一页</button><button>尾页</button><input type="text" value="1">
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                    </select>
+                    <button>GO</button>
+                </div>
+            </div>-->
+        </div>
+    </div>
+    <nav id="menu">
+        <ul>
+            <li><h1>当前账号：admin</span></h1></li>
+            <li><a href="pesonal.html">个人资料</a></li>
+            <li><a href="newspasswd.html">修改密码</a></li>
+            <li><a href="umagt.html">用户管理</a></li>
+            <li><a href="comreport.html">佣金报表</a></li>
+            <li><a href="mebreport.html"     class="active">会员报表</a></li>
+            <li><a href="wdrawal.html">佣金提款</a></li>
+            <li><a href="banknews.html">银行修改</a></li>
+            <!--<li><a href="modefiy.html">模式修改</a></li>-->
+            <li><a href="static.html">数据统计</a></li>
+            <li><a href="email.html">我的站内信</a></li>
+            <!--<li><a href="manage.html">新模式</a></li>-->
+            <li><a href="history.html">历史公告</a></li>
+            <li><h2>退出当前账号</h2></li>
+        </ul>
+    </nav>
+</div>
+<script>
+    $('#datepicker-example1').Zebra_DatePicker();
+    $('#datepicker-example2').Zebra_DatePicker();
+    $(document).ready(function(){
+        $("#search").bind("click",function(){
+            $(".pwd-list").stop().toggle(500);
+        })
+    })
+</script>
+</body>
+</html>

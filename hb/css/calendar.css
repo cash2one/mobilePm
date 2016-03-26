@@ -25,7 +25,7 @@
 }
 .calendar .calendar-mask,
 .calendar-content {
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	width: 100%;
     -webkit-tap-highlight-color: rgba(0,0,0,0);

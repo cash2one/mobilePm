@@ -367,10 +367,3 @@ footer {
     background: url('../images/940/footer-animation.png') no-repeat center center;
     background-size: 100% 100%;
 }
-
-@media screen and (min-width: 540px) {
-    #menu,#main,footer{
-        width:540px;
-        margin: 0 auto;
-    }
-}

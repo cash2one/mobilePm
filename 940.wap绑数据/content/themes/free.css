@@ -321,6 +321,7 @@ body
 .free-dl dd{
     width: calc(100% - 0.4rem);
     width: -webkit-calc(100% - 0.4rem);
+    height: 0.46rem;
     margin: 0 0.2rem;
     float: left;
 }

@@ -330,6 +330,32 @@ body
     font-size: 0.17rem;
 }
 
+/* processes-hit */
+.processes-explain ul li.processes-hit a.processes-color1{
+    background: #8585E9;
+}
+
+.processes-explain ul li.processes-hit a.processes-color2{
+    background: #26AAE4;
+}
+
+.processes-explain ul li.processes-hit a.processes-color3{
+    background: #30C783;
+}
+
+.processes-explain ul li.processes-hit a.processes-color4{
+    background: #24BFCE;
+}
+
+.processes-explain ul li.processes-hit a.processes-color5{
+    background: #26A8E4;
+}
+
+.processes-explain ul li.processes-hit a.processes-color6{
+    background: #8585E9;
+}
+
+/* bg */
 .processes-explain ul li a.processes-color1:hover{
     background: #8585E9;
 }
@@ -354,6 +380,31 @@ body
     background: #8585E9;
 }
 
+/* .hover */
+/* .processes-explain ul li a.processes-color1.hover{
+    background: #8585E9;
+}
+
+.processes-explain ul li a.processes-color2.hover{
+    background: #26AAE4;
+}
+
+.processes-explain ul li a.processes-color3.hover{
+    background: #30C783;
+}
+
+.processes-explain ul li a.processes-color4.hover{
+    background: #24BFCE;
+}
+
+.processes-explain ul li a.processes-color5.hover{
+    background: #26A8E4;
+}
+
+.processes-explain ul li a.processes-color6.hover{
+    background: #8585E9;
+} */
+
 /* sequence */
 .sequence{
     width: 100%;
@@ -361,9 +412,9 @@ body
 }
 
 .sequence .sequence-lyt{
-    width: calc(100% - 0.46rem);
-    width: -webkit-calc(100% - 0.46rem);
-    margin: 0 0.23rem;
+    width: calc(100% - 0.48rem);
+    width: -webkit-calc(100% - 0.48rem);
+    margin: 0 0.24rem;
     float: left;
 }
 
@@ -376,7 +427,7 @@ body
 
 .sequence .sequence-title{
     width: 100%;
-    font-size: 0.24rem;
+    font-size: 0.26rem;
     color: #ec6517;
     margin: 0.24rem 0 0.15rem 0;
     float: left;
@@ -447,15 +498,28 @@ body
 }
 
 .sequence .sequence-ifa2{
-    margin: 0.3rem 0;
+    margin: 0.3rem 0 0.5rem;
 }
 
 .sequence .sequence-ifa3{
-    margin: 0.3rem 0 0.36rem 0;
+    margin: 0.3rem 0 0.4rem;
+}
+
+.sequence .sequence-txtctr{
+    text-align: center;
 }
 
 .sequence .sequence-ifa i{
     color: #ff0000;
+}
+
+.sequence .sequence-ifa a{
+    color: #0000EE;
+}
+
+.sequence .sequence-ifa .sequence-link{
+    color: #ec6517;
+    text-decoration: underline;
 }
 
 .sequence .sequence-explain{

@@ -474,7 +474,7 @@ body
 .shop-cont .listmore, .shop-cont .listmoru, .shop-cont .listmord
 {
     height: 0.35rem;
-    margin-bottom: 0.12rem;
+    padding-bottom: 0.22rem;
     display: block;
     position: relative;
 }
@@ -484,7 +484,7 @@ body
     height:0.4rem;
     display:inline-block;
     position:absolute;
-    top: -0.04rem;
+    top: 0;
     left: 2.87rem;
     background: #ffbf00 url("../images/940/s-xguide-down.png") no-repeat center center;
     background-size: 0.2rem 0.11rem;

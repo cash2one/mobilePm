@@ -55,64 +55,118 @@ $(function() {
     //     $(this).addClass('processes-hit');
     // });
 
-    // shop
-    var LanMu = $(".shop-fold");
-    var lanMuSun = LanMu.children('li');
-    if ((lanMuSun.size()) > 5) {
-        LanMu.children("li:gt(3)").hide();
-        $(".listmore").show();
-    }
-    $(".listmore").bind("click", function() {
-        if (!$(".listmore").hasClass('ListMoreOn')) {
-            $(".listmore").addClass('ListMoreOn');
-            LanMu.children("li:gt(3)").slideDown();
-            $(".s-xguide-down").css("background-image","url('content/images/940/s-xguide-up.png')");
+    // 开店技巧
+    $.ajax({
+        type: 'get',
+        url: 'http://www.940.com/articleList?page=1&line=8&type=2&callback=?',
+        dataType: 'jsonp',
+        processData: false,
+        contentType: "application/x-www-form-urlencoded; charset=utf-8",
+        success: function(data) {
 
-        } else {
-            $(".listmore").removeClass('ListMoreOn');
-            LanMu.children("li:gt(3)").slideUp();
-            $(".s-xguide-down").css("background-image","url('content/images/940/s-xguide-down.png')");
+            var list = $('.shop-fold');
+            if (data.count && data.count > 0) {
+                list.html("");
+                var content = "";
+                /* alert(data.list[1].preview);*/
+                for (var i = 0; i < data.list.length; i++) {
+                    var item = data.list[i];
+                    content = "";
+                    content += "<li>";
+                    content += "<a href=\"javascript:;\">";
+                    content += "<dl class=\"shop-stu\">";
+                    content += "<dt><img src=\"" + item.preview + "\"></dt>";
+                    content += "<dd class=\"shop-big\"><span>" + item.title + "</span></dd>";
+                    content += "<dd class=\"shop-small\">";
+                    content += "<div class=\"shop-date\">发表日期:&nbsp" + item.time.substr(0,10) + "</div>";
+                    content += "<div class=\"shop-watch\"><i></i><span>" + item.clickNum + "</span></div>";
+                    content += "</dd>";
+                    content += "</dl>";
+                    content += "</a>";
+                    content += "</li>";
+
+                    list.append(content);
+                }
+            }
+
         }
+
     });
 
-    // shop2
-    var LanMt = $(".shop-fold2");
-    var lanMtSun = LanMt.children('li');
-    if ((lanMtSun.size()) > 5) {
-        LanMt.children("li:gt(3)").hide();
-        $(".listmoru").show();
-    }
-    $(".listmoru").bind("click", function() {
-        if (!$(".listmoru").hasClass('listmoruOn')) {
-            $(".listmoru").addClass('listmoruOn');
-            LanMt.children("li:gt(3)").slideDown();
-            $(".s-xguide-down2").css("background-image","url('content/images/940/s-xguide-up.png')");
+    // 干货分享
+    $.ajax({
+        type: 'get',
+        url: 'http://www.940.com/articleList?page=1&line=8&type=3&callback=?',
+        dataType: 'jsonp',
+        processData: false,
+        contentType: "application/x-www-form-urlencoded; charset=utf-8",
+        success: function(data) {
 
-        } else {
-            $(".listmoru").removeClass('listmoruOn');
-            LanMt.children("li:gt(3)").slideUp();
-            $(".s-xguide-down2").css("background-image","url('content/images/940/s-xguide-down.png')");
+            var list = $('.shop-fold2');
+            if (data.count && data.count > 0) {
+                list.html("");
+                var content = "";
+                /* alert(data.list[1].preview);*/
+                for (var i = 0; i < data.list.length; i++) {
+                    var item = data.list[i];
+                    content = "";
+                    content += "<li>";
+                    content += "<a href=\"javascript:;\">";
+                    content += "<dl class=\"shop-stu\">";
+                    content += "<dt><img src=\"" + item.preview + "\"></dt>";
+                    content += "<dd class=\"shop-big\"><span>" + item.title + "</span></dd>";
+                    content += "<dd class=\"shop-small\">";
+                    content += "<div class=\"shop-date\">发表日期:&nbsp" + item.time.substr(0,10) + "</div>";
+                    content += "<div class=\"shop-watch\"><i></i><span>" + item.clickNum + "</span></div>";
+                    content += "</dd>";
+                    content += "</dl>";
+                    content += "</a>";
+                    content += "</li>";
+
+                    list.append(content);
+                }
+            }
+
         }
+
     });
 
-    // shop3
-    var LanMy = $(".shop-fold3");
-    var lanMySun = LanMy.children('li');
-    if ((lanMySun.size()) > 5) {
-        LanMy.children("li:gt(3)").hide();
-        $(".listmord").show();
-    }
-    $(".listmord").bind("click", function() {
-        if (!$(".listmord").hasClass('listmordOn')) {
-            $(".listmord").addClass('listmordOn');
-            LanMy.children("li:gt(3)").slideDown();
-            $(".s-xguide-down3").css("background-image","url('content/images/940/s-xguide-up.png')");
+    // 网络推广
+    $.ajax({
+        type: 'get',
+        url: 'http://www.940.com/articleList?page=1&line=8&type=5&callback=?',
+        dataType: 'jsonp',
+        processData: false,
+        contentType: "application/x-www-form-urlencoded; charset=utf-8",
+        success: function(data) {
 
-        } else {
-            $(".listmord").removeClass('listmordOn');
-            LanMy.children("li:gt(3)").slideUp();
-            $(".s-xguide-down3").css("background-image","url('content/images/940/s-xguide-down.png')");
+            var list = $('.shop-fold3');
+            if (data.count && data.count > 0) {
+                list.html("");
+                var content = "";
+                /* alert(data.list[1].preview);*/
+                for (var i = 0; i < data.list.length; i++) {
+                    var item = data.list[i];
+                    content = "";
+                    content += "<li>";
+                    content += "<a href=\"javascript:;\">";
+                    content += "<dl class=\"shop-stu\">";
+                    content += "<dt><img src=\"" + item.preview + "\"></dt>";
+                    content += "<dd class=\"shop-big\"><span>" + item.title + "</span></dd>";
+                    content += "<dd class=\"shop-small\">";
+                    content += "<div class=\"shop-date\">发表日期:&nbsp" + item.time.substr(0,10) + "</div>";
+                    content += "<div class=\"shop-watch\"><i></i><span>" + item.clickNum + "</span></div>";
+                    content += "</dd>";
+                    content += "</dl>";
+                    content += "</a>";
+                    content += "</li>";
+
+                    list.append(content);
+                }
+            }
+
         }
+
     });
 
 });

@@ -31,7 +31,7 @@
     <!-- header -->
     <header class="header">
         <div class="header-user js-slideout-toggle"><i></i></div>
-        <a href="###" class="header-menu"><i></i></a>
+        <a href="/lijunsheng/940/940.wap/login.html" class="header-menu"><i></i></a>
         <div class="header-title"><i></i></div>
     </header>
     <!-- processes -->
@@ -122,7 +122,7 @@
                 <div class="shop-spacing">
                     <div class="shop-cont">
                         <ul class="shop-list shop-fold">
-                            <li>
+<!--                             <li>
                                 <a href="###">
                                     <dl class="shop-stu">
                                         <dt><img src="content/images/940/shop-stu1.jpg"></dt>
@@ -193,7 +193,7 @@
                                         </dd>
                                     </dl>
                                 </a>
-                            </li>
+                            </li> -->
                         </ul>
                         <div class="listmore" style="display:none;">
                             <a class="s-xguide-down trans" onclick="return false;" hidefocus=""></a>
@@ -205,7 +205,7 @@
         <div class="shop">
             <div class="shop-title">
                 <div class="shop-left2"></div>
-                <a href="###" class="shop-right"></a>
+                <a href="/lijunsheng/940/940.wap/shopSkills2.html" class="shop-right"></a>
                 <div class="shop-middle"></div>
             </div>
             <!-- shop_内容区域 -->
@@ -213,7 +213,7 @@
                 <div class="shop-spacing">
                     <div class="shop-cont">
                         <ul class="shop-list shop-fold2">
-                            <li>
+<!--                             <li>
                                 <a href="###">
                                     <dl class="shop-stu">
                                         <dt><img src="content/images/940/shop-stu1.jpg"></dt>
@@ -284,7 +284,7 @@
                                         </dd>
                                     </dl>
                                 </a>
-                            </li>
+                            </li> -->
                         </ul>
                         <div class="listmoru" style="display:none;">
                             <a class="s-xguide-down2 trans" onclick="return false;" hidefocus=""></a>
@@ -296,7 +296,7 @@
         <div class="shop shop-bottom">
             <div class="shop-title">
                 <div class="shop-left3"></div>
-                <a href="###" class="shop-right"></a>
+                <a href="/lijunsheng/940/940.wap/shopSkills3.html" class="shop-right"></a>
                 <div class="shop-middle"></div>
             </div>
             <!-- shop_内容区域 -->
@@ -304,7 +304,7 @@
                 <div class="shop-spacing">
                     <div class="shop-cont">
                         <ul class="shop-list shop-fold3">
-                            <li>
+<!--                             <li>
                                 <a href="###">
                                     <dl class="shop-stu">
                                         <dt><img src="content/images/940/shop-stu1.jpg"></dt>
@@ -375,7 +375,7 @@
                                         </dd>
                                     </dl>
                                 </a>
-                            </li>
+                            </li> -->
                         </ul>
                         <div class="listmord" style="display:none;">
                             <a class="s-xguide-down3 trans" onclick="return false;" hidefocus=""></a>
@@ -406,6 +406,73 @@
         </div>
     </footer>
 </div>
+
+<script type="text/javascript">
+    window.onload = function() {
+
+        // shop
+        var LanMu = $(".shop-fold");
+        var lanMuSun = LanMu.children('li');
+        if ((lanMuSun.size()) > 5) {
+            LanMu.children("li:gt(3)").hide();
+            $(".listmore").show();
+        }
+        $(".listmore").bind("click", function() {
+            if (!$(".listmore").hasClass('ListMoreOn')) {
+                $(".listmore").addClass('ListMoreOn');
+                LanMu.children("li:gt(3)").slideDown();
+                $(".s-xguide-down").css("background-image","url('content/images/940/s-xguide-up.png')");
+
+            } else {
+                $(".listmore").removeClass('ListMoreOn');
+                LanMu.children("li:gt(3)").slideUp();
+                $(".s-xguide-down").css("background-image","url('content/images/940/s-xguide-down.png')");
+            }
+        });
+
+        // shop2
+        var LanMt = $(".shop-fold2");
+        var lanMtSun = LanMt.children('li');
+        if ((lanMtSun.size()) > 5) {
+            LanMt.children("li:gt(3)").hide();
+            $(".listmoru").show();
+        }
+        $(".listmoru").bind("click", function() {
+            if (!$(".listmoru").hasClass('listmoruOn')) {
+                $(".listmoru").addClass('listmoruOn');
+                LanMt.children("li:gt(3)").slideDown();
+                $(".s-xguide-down2").css("background-image","url('content/images/940/s-xguide-up.png')");
+
+            } else {
+                $(".listmoru").removeClass('listmoruOn');
+                LanMt.children("li:gt(3)").slideUp();
+                $(".s-xguide-down2").css("background-image","url('content/images/940/s-xguide-down.png')");
+            }
+        });
+
+        // shop3
+        var LanMy = $(".shop-fold3");
+        var lanMySun = LanMy.children('li');
+        if ((lanMySun.size()) > 5) {
+            LanMy.children("li:gt(3)").hide();
+            $(".listmord").show();
+        }
+        $(".listmord").bind("click", function() {
+            if (!$(".listmord").hasClass('listmordOn')) {
+                $(".listmord").addClass('listmordOn');
+                LanMy.children("li:gt(3)").slideDown();
+                $(".s-xguide-down3").css("background-image","url('content/images/940/s-xguide-up.png')");
+
+            } else {
+                $(".listmord").removeClass('listmordOn');
+                LanMy.children("li:gt(3)").slideUp();
+                $(".s-xguide-down3").css("background-image","url('content/images/940/s-xguide-down.png')");
+            }
+        });
+
+    };
+
+</script>
 
 </body>
 </html>

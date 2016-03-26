@@ -23,6 +23,19 @@ form {
 }
 /*公用部分*/
 html {
+  -ms-touch-action: none;
+}
+.css {
+  -webkit-user-select: none;
+}
+input[type=radio]::-ms-check,
+input[type=checkbox]::-ms-check {
+  display: none;
+}
+.css {
+  -webkit-touch-callout: none;
+}
+html {
   /*font-size为 320 / 640 * 100 = 50(px);*/
   font-size: 50px;
 }
@@ -106,6 +119,10 @@ input {
 .ui-bg-whiter {
   background: #fff;
 }
+/*公用红色背景*/
+.ui-bg-red {
+  background: -webkit-linear-gradient(top, #fff, #d04a46);
+}
 /*公用padding*/
 .ui-padding-left10 {
   padding-left: 10px;
@@ -138,6 +155,7 @@ input {
   color: #fff;
   border-bottom: 2px solid #19460A;
   background-image: linear-gradient(#00736c, #00736c);
+  background-color: #00736c;
 }
 .ui-top .logo {
   float: left;
@@ -150,6 +168,9 @@ input {
 .ui-top .ui-user span {
   padding: 0 5px;
   display: inline-block;
+}
+.ui-top a {
+  color: #fff;
 }
 /*公告*/
 .acment {
@@ -447,20 +468,119 @@ input {
 .ui-tip span {
   color: #4CAF50;
 }
+/*公用checkbox*/
+input[type="checkbox"] {
+  display: none!important;
+}
+input[type="checkbox"] + label {
+  cursor: pointer;
+  font-size: 1em;
+}
+[id^="checkbox-3-"] + label {
+  background-color: #FFF;
+  border: 1px solid #C1CACA;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 0.08rem 0px!important;
+  border-radius: 1000px;
+  display: inline-block;
+  position: relative;
+  margin-right: 30px;
+}
+[id^="checkbox-3-"] + label:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+[id^="checkbox-3-"]:checked + label {
+  background-color: #fff;
+  border: 1px solid #92A1AC;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+  color: #243441;
+}
+[id^="checkbox-3-"]:checked + label:before {
+  content: ' ';
+  border-radius: 100px;
+  position: absolute;
+  background: #3F51B5;
+  opacity: 0.8;
+  display: none;
+  box-shadow: inset 0 15px 23px -10px rgba(187, 230, 240, 0.3), 0 2px 2px rgba(0, 0, 0, 0.1);
+  top: 3px;
+  left: 3px;
+  width: 0.3rem;
+  height: 0.3rem;
+}
+[id^="checkbox-3-"]:checked + label:before {
+  content: ' ';
+  display: block;
+}
+#checkbox-3-2:checked + label:before {
+  top: 0.03rem;
+  left: 0.02rem;
+  width: 0.3rem;
+  height: 0.3rem;
+}
+#checkbox-3-2 + label {
+  width: 0.35rem;
+  height: 0.2rem;
+}
+#checkbox-3-3:checked + label:before {
+  top: 0.03rem;
+  left: 0.02rem;
+  width: 0.3rem;
+  height: 0.3rem;
+}
+#checkbox-3-3 + label {
+  width: 0.35rem;
+  height: 0.2rem;
+}
+#checkbox-3-4:checked + label:before {
+  top: 0.03rem;
+  left: 0.02rem;
+  width: 0.3rem;
+  height: 0.3rem;
+}
+#checkbox-3-4 + label {
+  width: 0.35rem;
+  height: 0.2rem;
+}
 /*公用表单页面*/
 .ui-form-content {
   padding: 10px;
 }
 .ui-form-content .ui-label {
   /*width:100%;*/
-  padding: 0px 5px 20px;
+  padding: 0px 5px 7px;
+}
+.ui-form-content .ui-label.ui-box-flex input.user_no {
+  display: inline-block;
+  width: 20%;
+}
+.ui-form-content .ui-label.ui-box-flex input.user_mobile {
+  display: inline-block;
+  width: 77%;
 }
 .ui-form-content .ui-label label {
   display: block;
   padding: 5px 0px;
   font-size: 0.25rem;
 }
+.ui-form-content .ui-label .ui-yazm {
+  width: 20%;
+  vertical-align: middle;
+  display: inline-block;
+}
 .ui-form-content .ui-label input {
+  text-indent: 0.15rem;
+  width: 100%;
+  display: block;
+  border: 1px solid #e6dcc3;
+  border-radius: 5px;
+  min-height: 0.5rem;
+}
+.ui-form-content .ui-label input.user_yazm {
+  width: 76%;
+  display: inline-block;
+}
+.ui-form-content .ui-label select {
   text-indent: 0.15rem;
   width: 100%;
   display: block;
@@ -549,11 +669,20 @@ input {
 /*公用选择区域*/
 .ui-list-mian {
   overflow: hidden;
-  padding: 5px 0;
+  padding: 10px 0 5px 0;
+}
+/*公用内容页列表视图*/
+.ui-view-list {
+  padding-top: 0.15rem;
 }
 .ui-list-ball {
   padding-bottom: 0.15rem;
   overflow: hidden;
+}
+.ui-list-ball.small dl dt span {
+  width: 0.5rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
 }
 .ui-list-ball dl {
   width: 16.6%;
@@ -566,26 +695,33 @@ input {
 }
 .ui-list-ball dl dt span {
   border-radius: 100%;
-  width: 0.5rem;
-  height: 0.5rem;
+  width: 0.7rem;
+  height: 0.7rem;
   margin: auto;
-  line-height: 0.5rem;
+  line-height: 0.7rem;
   border: 1px solid #b6b6b6;
   display: block;
   background: -webkit-linear-gradient(top, #fff, #ccc);
   background: -moz-linear-gradient(top, #fff, #ccc);
-}
-.ui-list-ball dl dt span:active {
-  border: 1px solid #e60012;
-  background: -webkit-linear-gradient(top, #fff, #d04a46);
-  background: -moz-linear-gradient(top, #fff, #d04a46);
+  /*&:active{
+          border:1px solid #e60012;
+          background: -webkit-linear-gradient(top, #fff, #d04a46);
+          background: -moz-linear-gradient(top, #fff, #d04a46);
+        }*/
 }
 .ui-list-ball dl dt span.active {
+  border: 1px solid #365db5;
+  background: -webkit-linear-gradient(top, #fff, #3f51b5);
+  background: -moz-linear-gradient(top, #fff, #3f51b5);
+}
+.ui-list-ball dl dt span.ui-bg-red.active {
   border: 1px solid #e60012;
   background: -webkit-linear-gradient(top, #fff, #d04a46);
   background: -moz-linear-gradient(top, #fff, #d04a46);
 }
 .ui-list-ball dl dd {
+  margin-bottom: 5px;
+  margin-top: 5px;
   color: blue;
   display: block;
 }
@@ -644,7 +780,7 @@ input {
   margin: 0.1rem 0.05rem;
   border: 1px solid #827878;
   /* padding:0.1rem 0.6rem;*/
-  font-size: 0.1rem;
+  font-size: 0.25rem;
   text-align: center;
   background: #fff;
   border-radius: 5px;
@@ -749,6 +885,9 @@ ol li {
 .ui-bm5 {
   padding-bottom: 5px;
 }
+.ui-bt5 {
+  padding-top: 5px;
+}
 .ui-bt10 {
   padding-top: 10px;
 }
@@ -759,15 +898,15 @@ ol li {
   padding-bottom: 15px;
 }
 .ui-marginbt5 {
-  margin-bottom: 5px;
+  margin-top: 5px;
 }
 .ui-margint10 {
   margin-top: 10px;
 }
-.ui-marginbt10 {
+.ui-marginbm10 {
   margin-bottom: 10px;
 }
-.ui-marginbt15 {
+.ui-marginbm15 {
   margin-bottom: 15px;
 }
 .ui-content-pd {
@@ -795,6 +934,8 @@ ol li {
   text-align: center;
 }
 .ui-table-main tr th {
+  text-overflow: ellipsis;
+  word-wrap: break-word;
   font-weight: bold;
   border-bottom: 2px solid #ddd;
 }

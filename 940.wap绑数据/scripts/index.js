@@ -66,11 +66,7 @@ $(function() {
     //     $(this).addClass('processes-hit');
     // });
 
-
-
-
-
-    // 讲师团队http://www.940.com/teacherList?page=1&line=6&callback=?
+    // 讲师团队
     $.ajax({
         type: 'get',
         url: 'http://www.940.com/teacherList?page=1&line=6&callback=?',
@@ -85,20 +81,22 @@ $(function() {
                 list.html("");
                 list1.html("");
                 var content = "";
-                for (var i = 0; i <data.list.length; i++) {
+                for (var i = 0; i < data.list.length; i++) {
                     var item = data.list[i];
                     content = "";
                     content += "<dl>";
-                    content += "<a href=\"javascript:;\">";
+                    content += "<a href=\"lecturer.html?id="+item.id+"\">";
                     content += "<dt><img src=\"" + item.profileUrl + "\"></dt>";
-                    content += "<dd>"+item.name+"</dd>";
+                    content += "<dd>" + item.name + "</dd>";
                     content += "</a>";
                     content += "</dl>";
-                    if(i<3){
+console.log(data.list.length);
+                    if (i < 3) {
                         list.append(content);
-                    }else{
+                    } else {
                         list1.append(content);
                     }
+
                 }
             }
         }
@@ -142,13 +140,19 @@ $(function() {
 
     $.ajax({
         type: 'get',
-        url: 'http://www.940.com/videoList?page=1&line=2&type=3&callback=?',
+        url: 'http://www.940.com/videoList?page=1&line=4&type=2&callback=?',
         dataType: 'jsonp',
         processData: false,
         contentType: "application/x-www-form-urlencoded; charset=utf-8",
         success: function(data) {
 
             data = formatData(data); // 然后在ajax获取到数据后使用它
+/*            if(!(data instanceof Array))
+            {
+              //line等于1的情况
+              //处理成和line>1的情况一样的结构
+              data.list=[data.list];
+            }*/
 
             var list = $('.free-closure');
             if (data.count && data.count > 0) {
@@ -156,7 +160,7 @@ $(function() {
                 var content = "";
                 for (var i = 0; i < data.list.length; i++) {
                     var item = data.list[i];
-                    /*alert( );*/
+                    // alert( );
                     content = "";
                     if (i % 2 == 0) {
                         content += "<dl class=\"free-dl free-cont1\">";
@@ -165,12 +169,12 @@ $(function() {
                     }
 
                     content += "<dt class=\"free-dt1\">";
-                    content += "<a href=\"javascript:;\"><img src=\"" + item.preview + "\"></a>";
+                    content += "<a href=\"shopDetail.html?id="+item.id+"\"><img src=\"" + item.preview + "\"></a>";
                     content += "</dt>";
-                    content += "<dd class=\"free-big\"><span>"+item.title+"</span></dd>";
+                    content += "<dd class=\"free-big\"><span>" + item.title + "</span></dd>";
                     content += "<dd class=\"free-small\">";
-                    content += "<div class=\"free-date\">发布："+item.time+"</div>";
-                    content += "<div class=\"free-watch\"><i></i><span>"+item.click_num+"</span></div>";
+                    content += "<div class=\"free-date\">发布:&nbsp" + item.time.substr(0,10) + "</div>";
+                    content += "<div class=\"free-watch\"><i></i><span>" + item.click_num + "</span></div>";
                     content += "</dd>";
                     content += "</dl>";
 
@@ -182,10 +186,10 @@ $(function() {
 
     });
 
-    // 开店技巧http://www.940.com/articleList?page=1&line=10&type=0&callback=?
+    // 开店技巧
     $.ajax({
         type: 'get',
-        url: 'http://www.940.com/articleList?page=1&line=10&type=0&callback=?',
+        url: 'http://www.940.com/articleList?page=1&line=8&type=2&callback=?',
         dataType: 'jsonp',
         processData: false,
         contentType: "application/x-www-form-urlencoded; charset=utf-8",
@@ -197,22 +201,23 @@ $(function() {
             if (data.count && data.count > 0) {
                 list.html("");
                 var content = "";
-               /* alert(data.list[1].preview);*/
+                /* alert(data.list[1].preview);*/
                 for (var i = 0; i < data.list.length; i++) {
                     var item = data.list[i];
                     content = "";
                     content += "<li>";
-                    content += "<a href=\"javascript:;\">";
+                    content += "<a href=\"shopDetail.html?id="+item.id+"\">";
                     content += "<dl class=\"shop-stu\">";
                     content += "<dt><img src=\"" + item.preview + "\"></dt>";
-                    content += "<dd class=\"shop-big\"><span>"+item.title+"</span></dd>";
+                    content += "<dd class=\"shop-big\"><span>" + item.title + "</span></dd>";
                     content += "<dd class=\"shop-small\">";
-                    content += "<div class=\"shop-date\">"+item.time+"</div>";
-                    content += "<div class=\"shop-watch\"><i></i><span>"+item.clickNum+"</span></div>";
+                    content += "<div class=\"shop-date\">发表日期:&nbsp" + item.time.substr(0,10) + "</div>";
+                    content += "<div class=\"shop-watch\"><i></i><span>" + item.clickNum + "</span></div>";
                     content += "</dd>";
                     content += "</dl>";
                     content += "</a>";
                     content += "</li>";
+
                     list.append(content);
                 }
             }
@@ -221,12 +226,10 @@ $(function() {
 
     });
 
-
-
-    // 成功案例http://www.940.com/articleList?page=1&line=10&type=0&callback=?
+    // 成功案例
     $.ajax({
         type: 'get',
-        url: 'http://www.940.com/articleList?page=1&line=10&type=0&callback=?',
+        url: 'http://www.940.com/articleList?page=1&line=8&type=6&callback=?',
         dataType: 'jsonp',
         processData: false,
         contentType: "application/x-www-form-urlencoded; charset=utf-8",
@@ -239,23 +242,25 @@ $(function() {
                 var content = "";
                 for (var i = 0; i < 20; i++) {
                     var item = data.list[i];
-                   /* console.log(item.preview);*/
+                    /* console.log(item.preview);*/
                     content = "";
                     content += "<li>";
-                    content += "<a href=\"javascript:;\">";
+                    content += "<a href=\"shopDetail.html?id="+item.id+"\">";
                     content += "<dl class=\"successes-stu\">";
-                    content += "<dt><img src=\" "+ item.preview +" \"></dt>";
-                    content += "<dd class=\"successes-big\"><span>"+item.title+"</span></dd>";
+                    content += "<dt><img src=\"" + item.preview + "\"></dt>";
+                    content += "<dd class=\"successes-big\"><span>" + item.title + "</span></dd>";
                     content += "<dd class=\"successes-small\">";
-                    content += "<div class=\"left\">月赚</div>";
+                    content += "<div class=\"left\">开店月赚</div>";
                     content += "<div class=\"middle\">";
-                    content += "<span>"+item.inCome+"</span>";
+                    content += "<span>" + item.inCome + "</span>";
                     content += "</div>";
-                    content += "<div class=\"right\">入学日期："+item.joinTime+"5</div>";
+                    content += "<div class=\"right\">入学日期:&nbsp" + item.time.substr(0,10) + "</div>";
                     content += "</dd>";
                     content += "</dl>";
                     content += "</a>";
                     content += "</li>";
+
+                    // console.log(item.inCome);
                     list.append(content);
                 }
             }
@@ -263,6 +268,8 @@ $(function() {
         }
 
     });
+
+
 
 });
 
@@ -286,5 +293,3 @@ $(function() {
 
 }
 browserRedirect();*/
-
-
